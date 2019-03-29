@@ -6,19 +6,21 @@ import scala.io.Source
 class Wiki(var fileName: String) {
 
   var doc = new WikiDoc()
-  var inverted = new Index()
+  var inverted: Index = null
   def Index(): Unit = {
     val source = Source.fromInputStream(getClass.getClassLoader.getResourceAsStream(fileName))
-    inverted.Create()
+    inverted = new Index("lucene/watson")
     inverted.Open()
-    var i = 1
     for (line:String <- source.getLines()) {
       Parse(line)
-      println(i)
-      i += 1
     }
     inverted.Close()
     source.close()
+  }
+
+  def QueryUI(): Unit ={
+    inverted = new Index("lucene/watson")
+    inverted.Run("are a religious group that originated")
   }
 
   private def Parse(line: String): Unit ={

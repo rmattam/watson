@@ -6,7 +6,10 @@ object Main {
       val fileName: String = "wiki-example.txt"
       val wiki: Wiki = new Wiki(fileName)
       wiki.Index()
-      println("done")
+      println("indexing done")
+
+      wiki.QueryUI()
+      println("search done")
     } catch {
       case ex: Exception => println(ex.getMessage)
     }
