@@ -11,8 +11,11 @@ class Wiki(var fileName: String) {
     val source = Source.fromInputStream(getClass.getClassLoader.getResourceAsStream(fileName))
     inverted.Create()
     inverted.Open()
+    var i = 1
     for (line:String <- source.getLines()) {
       Parse(line)
+      println(i)
+      i += 1
     }
     inverted.Close()
     source.close()

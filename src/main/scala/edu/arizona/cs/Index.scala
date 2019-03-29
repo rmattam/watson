@@ -32,9 +32,9 @@ class Index {
 
     private def CreateDocument(document: WikiDoc): Document = {
       val doc: Document = new Document()
-      doc.add(new TextField("title", document.Title, Field.Store.YES))
-      doc.add(new StringField("para-1", document.Content(0), Field.Store.YES))
-      doc.add(new StringField("text", document.Content.slice(0, document.Content.length).mkString(" "), Field.Store.YES))
+      doc.add(new StringField("title", document.Title, Field.Store.YES))
+      doc.add(new TextField("para-1", document.Content(0), Field.Store.YES))
+      doc.add(new TextField("text", document.Content.slice(0, document.Content.length).mkString(" "), Field.Store.YES))
       return doc
     }
 }
