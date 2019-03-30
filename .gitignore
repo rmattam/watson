@@ -8,3 +8,5 @@ target/
 lucene/watson/
 
 data/wiki-subset-20140602/
+
+data/wiki-subset-rest/

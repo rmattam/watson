@@ -4,13 +4,12 @@ import scala.collection.mutable.ListBuffer
 import java.io.File
 import java.nio.file.{FileSystem, Files, Paths}
 
-class Wiki(var dirName: String) {
+class Wiki(val index_file_path:String = "lucene/watson") {
 
   var doc = new WikiDoc()
   var inverted: Index = null
-  private val index_file_path = "lucene/watson"
 
-  def Index(): Unit = {
+  def Index(dirName: String): Unit = {
     inverted = new Index(index_file_path)
     inverted.Create()
     try {
@@ -59,11 +58,11 @@ class Wiki(var dirName: String) {
     }
   }
 
-  private def getFiles(dir: String):List[File] = {
-    val d = new File(dir)
+  private def getFiles(dirName: String):List[File] = {
+    val d = new File(dirName)
     var x:List[File] = null
     if (d.exists && d.isDirectory) {
-      x = d.listFiles.filter(_.isFile).toList
+      x = d.listFiles.filter(x => (x.isFile && x.getName().startsWith("enwiki"))).toList
     } else if (d.exists && d.isFile) {
       x = List(d)
     } else {
