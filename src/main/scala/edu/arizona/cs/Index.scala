@@ -6,6 +6,7 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer
 import org.apache.lucene.document.{Field, StringField, TextField}
 import org.apache.lucene.index.{DirectoryReader, IndexWriter, IndexWriterConfig}
 import org.apache.lucene.document.Document
+import org.apache.lucene.index.IndexWriterConfig.OpenMode
 import org.apache.lucene.queryparser.classic.QueryParser
 import org.apache.lucene.search.IndexSearcher
 import org.apache.lucene.store.FSDirectory
@@ -13,21 +14,30 @@ import org.apache.lucene.store.FSDirectory
 import scala.collection.mutable.ListBuffer
 
 class Index(val file:String) {
-    private var luceneIndex = FSDirectory.open(Paths.get(file))
+    private var luceneIndex: FSDirectory = FSDirectory.open(Paths.get(file))
     private val analyzer = new StandardAnalyzer()
     private var writer:IndexWriter = null
 
-    def Delete(): Unit ={
-      luceneIndex.deleteFile(file)
-    }
-
-    def Open():Unit = {
+    private def Open(mode: OpenMode):Unit = {
       val config = new IndexWriterConfig(analyzer)
+      config.setOpenMode(mode)
       writer = new IndexWriter(luceneIndex, config)
     }
 
-    def Close(): Unit ={
+    def Create(): Unit ={
+      Open(OpenMode.CREATE)
+    }
+
+    def Open(): Unit ={
+      Open(OpenMode.CREATE_OR_APPEND)
+    }
+
+    def CloseAll(): Unit ={
       writer.close()
+      Close()
+    }
+
+    def Close(): Unit ={
       luceneIndex.close()
     }
 

@@ -10,17 +10,24 @@ class Wiki(var fileName: String) {
   def Index(): Unit = {
     val source = Source.fromInputStream(getClass.getClassLoader.getResourceAsStream(fileName))
     inverted = new Index("lucene/watson")
-    inverted.Open()
-    for (line:String <- source.getLines()) {
-      Parse(line)
+    inverted.Create()
+    try{
+      for (line:String <- source.getLines()) {
+        Parse(line)
+      }
+    } finally {
+      inverted.CloseAll()
+      source.close()
     }
-    inverted.Close()
-    source.close()
   }
 
   def QueryUI(): Unit ={
     inverted = new Index("lucene/watson")
-    inverted.Run("are a religious group that originated")
+    try{
+      inverted.Run("are a religious group that originated")
+    } finally {
+      inverted.Close()
+    }
   }
 
   private def Parse(line: String): Unit ={
