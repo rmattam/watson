@@ -22,6 +22,7 @@ object Main {
         println("indexing done")
       }
 
+      val input = Jeopardy.Parse(conf.query())
       wiki.QueryUI()
       println("search done")
     } catch {

@@ -14,6 +14,7 @@ class Wiki(val index_file_path:String = "lucene/watson") {
     inverted.Create()
     try {
       for (file:File <- getFiles(dirName)) {
+        println("Indexing file: "+ file.getName)
         val lines = Files.lines(file.toPath)
         try {
           lines.forEach(line => {
