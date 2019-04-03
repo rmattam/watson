@@ -7,10 +7,9 @@ import java.nio.file.{FileSystem, Files, Paths}
 class Wiki(val index_file_path:String = "lucene/watson") {
 
   var doc = new WikiDoc()
-  var inverted: Index = null
+  val inverted: Index = new Index(index_file_path)
 
   def Index(dirName: String): Unit = {
-    inverted = new Index(index_file_path)
     inverted.Create()
     try {
       for (file:File <- getFiles(dirName)) {
@@ -29,13 +28,16 @@ class Wiki(val index_file_path:String = "lucene/watson") {
     }
   }
 
-  def QueryUI(): Unit ={
-    inverted = new Index(index_file_path)
-    try{
-      inverted.Run("are a religious group that originated")
-    } finally {
-      inverted.Close()
-    }
+  def QueryTop(qString:String): String ={
+      val res =inverted.Run(qString)
+      if (res.length != 0)
+        return res(0).toString
+      else
+        return ""
+  }
+
+  def Close(): Unit ={
+    inverted.Close()
   }
 
   private def Parse(line: String): Unit ={

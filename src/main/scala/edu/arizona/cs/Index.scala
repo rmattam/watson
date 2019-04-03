@@ -53,9 +53,9 @@ class Index(val file:String) {
       return doc
     }
 
-    def Run(qString: String): ListBuffer[ResultClass] = {
+    def Run(qString: String): ListBuffer[JeopardyResult] = {
       val query = new QueryParser("text", analyzer).parse(qString)
-      var doc_score_list = new ListBuffer[ResultClass]()
+      var doc_score_list = new ListBuffer[JeopardyResult]()
       val hitsPerPage = 10
       val reader = DirectoryReader.open(luceneIndex)
       val searcher:IndexSearcher = new IndexSearcher(reader)
@@ -66,10 +66,10 @@ class Index(val file:String) {
       while (i < hits.length) {
         val docId = hits(i).doc
         val d = searcher.doc(docId)
-        val objResultClass: ResultClass = new ResultClass()
-        objResultClass.DocName = d
-        objResultClass.doc_score = hits(i).score
-        println("Hit:"+ (i+1) +" Title: " + objResultClass.DocName.get("title") + " DocScore: " + objResultClass.doc_score)
+        val objResultClass: JeopardyResult = new JeopardyResult()
+        objResultClass.Title = d.get("title")
+        objResultClass.Score = hits(i).score
+        println("Hit:"+ (i+1) +" Title: " + objResultClass.Title + " DocScore: " + objResultClass.Score)
         doc_score_list += (objResultClass)
         i += 1
       }

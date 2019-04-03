@@ -6,10 +6,12 @@ import org.apache.lucene.document.Document
 //remove if not needed
 import scala.collection.JavaConversions._
 
-class ResultClass {
+class JeopardyResult {
+  var Title: String = ""
+  var Score: Double = 0
+}
 
-  var DocName: Document = _
-
-  var doc_score: Double = 0
-
+class LuceneResult {
+  var Doc: Document = _
+  var Score: Double = 0
 }

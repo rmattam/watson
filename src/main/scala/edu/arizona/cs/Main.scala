@@ -14,16 +14,9 @@ object Main {
     try {
       val conf = new Config(args)
       println("Configs: index: " + conf.index()+ ", query file: " + conf.query())
-
-      val wiki: Wiki = new Wiki(conf.index())
-      if (conf.data.isSupplied) {
-        println("reading wiki data from: " + conf.data())
-        wiki.Index(conf.data())
-        println("indexing done")
-      }
-
-      val input = Jeopardy.Parse(conf.query())
-      wiki.QueryUI()
+      val eval = new Evaluate()
+      eval.init_index(conf)
+      eval.Baseline(conf.query())
       println("search done")
     } catch {
       case ex: Exception => println(ex.getMessage)
