@@ -22,7 +22,8 @@ class Evaluate {
         // characters which have to be escaped: + - && || ! ( ) { } [ ] ^ " ~ * ? : \
         if (item.answer == wiki.QueryTop(item.question.replace('-', ' ').replace('!', ' '))) correct += 1
       }
-      println("Baseline Accuracy: " + (correct / tests.length))
+      val Accuracy = (correct.toFloat / tests.length)
+      println("Baseline Accuracy: " + Accuracy)
     } finally {
       wiki.Close()
     }

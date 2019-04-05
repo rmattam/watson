@@ -31,7 +31,7 @@ class Wiki(val index_file_path:String = "lucene/watson") {
   def QueryTop(qString:String): String ={
       val res =inverted.Run(qString)
       if (res.length != 0)
-        return res(0).toString
+        return res(0).Title
       else
         return ""
   }
