@@ -36,6 +36,14 @@ class Wiki(val index_file_path:String = "lucene/watson") {
         return ""
   }
 
+  def Query(qString:String): List[String] ={
+    val res =inverted.Run(qString)
+    if (res.length != 0)
+      return res.map(_.Title).toList
+    else
+      return List()
+  }
+
   def Close(): Unit ={
     inverted.Close()
   }
