@@ -4,11 +4,11 @@ import java.nio.file.Paths
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer
 import org.apache.lucene.document.{Field, StringField, TextField}
-import org.apache.lucene.index.{DirectoryReader, IndexWriter, IndexWriterConfig}
+import org.apache.lucene.index.{DirectoryReader, IndexWriter, IndexWriterConfig, Term}
 import org.apache.lucene.document.Document
 import org.apache.lucene.index.IndexWriterConfig.OpenMode
 import org.apache.lucene.queryparser.classic.QueryParser
-import org.apache.lucene.search.IndexSearcher
+import org.apache.lucene.search.{IndexSearcher, TermQuery}
 import org.apache.lucene.store.FSDirectory
 
 import scala.collection.mutable.ListBuffer
@@ -74,5 +74,28 @@ class Index(val file:String) {
         i += 1
       }
       return doc_score_list
+    }
+
+    def GetDocument(title:String): String ={
+      val query = new TermQuery(new Term("title", title))
+      var doc_score_list = new ListBuffer[JeopardyResult]()
+      val hitsPerPage = 10
+      val reader = DirectoryReader.open(luceneIndex)
+      val searcher:IndexSearcher = new IndexSearcher(reader)
+      val docs = searcher.search(query, hitsPerPage)
+      val hits = docs.scoreDocs
+
+      var i = 0
+      while (i < hits.length) {
+        val docId = hits(i).doc
+        val d = searcher.doc(docId)
+        val objResultClass: JeopardyResult = new JeopardyResult()
+        objResultClass.Title = d.get("text")
+        objResultClass.Score = hits(i).score
+        println("Hit:"+ (i+1) +" Title: " + objResultClass.Title + " DocScore: " + objResultClass.Score)
+        doc_score_list += (objResultClass)
+        i += 1
+      }
+      return doc_score_list(0).Title
     }
 }

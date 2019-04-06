@@ -4,6 +4,7 @@ import java.io.{BufferedWriter, FileWriter}
 import java.io.File
 
 import com.sun.net.httpserver.Authenticator.Success
+import jdk.nashorn.internal.runtime.QuotedStringTokenizer
 
 class Evaluate {
 
@@ -25,9 +26,22 @@ class Evaluate {
     try {
       for (item: Jeopardy <- tests) {
         // characters which have to be escaped: + - && || ! ( ) { } [ ] ^ " ~ * ? : \
-        val question = item.question.replace('-', ' ').replace('!', ' ')
-        var prediction = List(wiki.QueryTop(question))
-        if (item.answer == prediction(0)){
+        var question = item.question.replace('-', ' ').replace('!', ' ').replace('\"', ' ').replace(';',' ').replace(':', ' ')
+
+        if (item.rules.proximity){
+          var temp_question = ""
+          val tokens = question.split("\\s+")
+          var i = 0
+          while (i < tokens.length-2){
+            if (temp_question != "") temp_question += " OR "
+            temp_question += "\"" + tokens(i) + " " + tokens(i+1) + " " + tokens(i+2) + " " + item.rules.proximityString + "\"~100"
+            i+=1
+          }
+          question = "("+ question + ") OR (" + temp_question + ")"
+        }
+
+        var prediction = List(wiki.QueryTop(question, item.rules))
+        if (item.answer.contains(prediction(0))){
           correct += 1
           report(true, item, prediction)
         } else {
@@ -43,13 +57,22 @@ class Evaluate {
     }
   }
 
+  def ViewDocument(title:String): String ={
+    val document = wiki.GetDocument(title)
+    return document
+  }
+
+  def TestQuery(qString: String): Unit ={
+    wiki.TestQuery(qString)
+  }
+
   def report(success: Boolean, item:Jeopardy, prediction: Seq[String]): Unit ={
-    val errors = new File("analysis/v1/" + (if (success) "success" else "errors") +"/"+ item.category + ".txt")
+    val errors = new File("analysis/v2/" + (if (success) "success" else "errors") +"/"+ item.category + ".txt")
     errors.createNewFile()
     val bw = new BufferedWriter(new FileWriter(errors, true))
     bw.write(item.question)
     bw.write("\n")
-    bw.write(item.answer)
+    bw.write(item.answer.mkString(" | "))
     bw.write("\n")
     bw.write(prediction.mkString(" || "))
     bw.write("\n")

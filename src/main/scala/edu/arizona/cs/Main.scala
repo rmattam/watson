@@ -17,6 +17,9 @@ object Main {
       val eval = new Evaluate()
       eval.init_index(conf)
       eval.Baseline(conf.query())
+
+      //eval.ViewDocument("Kelsey Grammer")
+      //eval.TestQuery("2011: Chicago mayor Tom Kane Golden Globe")
       println("search done")
     } catch {
       case ex: Exception => println(ex.getMessage)

@@ -4,6 +4,8 @@ import scala.collection.mutable.ListBuffer
 import java.io.File
 import java.nio.file.{FileSystem, Files, Paths}
 
+import org.apache.lucene.analysis.standard.StandardAnalyzer
+
 class Wiki(val index_file_path:String = "lucene/watson") {
 
   var doc = new WikiDoc()
@@ -28,12 +30,29 @@ class Wiki(val index_file_path:String = "lucene/watson") {
     }
   }
 
-  def QueryTop(qString:String): String ={
+  def QueryTop(qString:String, rule: CategoryRules): String ={
       val res =inverted.Run(qString)
-      if (res.length != 0)
-        return res(0).Title
-      else
-        return ""
+      if (res.length != 0) {
+        var i = 0
+        if (!rule.IgnoreTermInQuery){
+          while (i < res.length && IsTermInQuery(qString, res(i).Title)) {
+            i += 1
+          }
+        }
+        return res(i).Title
+      } else
+          return ""
+  }
+
+  private def IsTermInQuery(query:String, term: String): Boolean ={
+    var result = false
+    for (word <- term.split("\\s+")){
+
+      if (!(StandardAnalyzer.ENGLISH_STOP_WORDS_SET.contains(word.toLowerCase())) && query.toLowerCase().contains(word.toLowerCase())){
+        result = true
+      }
+    }
+    return result
   }
 
   def Query(qString:String): List[String] ={
@@ -41,7 +60,7 @@ class Wiki(val index_file_path:String = "lucene/watson") {
     if (res.length != 0)
       return res.map(_.Title).toList
     else
-      return List()
+      return List("")
   }
 
   def Close(): Unit ={
@@ -81,4 +100,20 @@ class Wiki(val index_file_path:String = "lucene/watson") {
     }
     return x
   }
+
+  // debugging
+  def GetDocument(title:String): String ={
+    return inverted.GetDocument(title)
+  }
+
+  def TestQuery(qString:String): Unit ={
+    var proxi = "\"" + qString + "\"~30"
+    var result = inverted.Run(proxi)
+    proxi = "\"" + qString + "\"~50"
+    result = inverted.Run(proxi)
+    proxi = "\"" + qString + "\"~1000"
+    result = inverted.Run(proxi)
+    println("done")
+  }
+
 }
