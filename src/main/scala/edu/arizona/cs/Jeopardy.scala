@@ -1,4 +1,6 @@
 package edu.arizona.cs
+import edu.stanford.nlp.simple._
+import collection.JavaConverters._
 
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
@@ -8,20 +10,32 @@ class Jeopardy {
   var answer:Array[String] = null
   var question:String = null
   var rules:CategoryRules = null
+
+  var nouns:ListBuffer[String] = ListBuffer[String]()
+  var nlp:Sentence = null
 }
 
 class CategoryRules(val IgnoreTermInQuery:Boolean = false, val proximity:Boolean = false, val proximityString:String = ""){
 }
 
 object Jeopardy {
-  def Parse(fileName:String): ListBuffer[Jeopardy] ={
+  def Parse(fileName:String, doNLP:Boolean): ListBuffer[Jeopardy] ={
     val input = ListBuffer[Jeopardy]()
     val source = Source.fromInputStream(getClass.getClassLoader.getResourceAsStream(fileName))
     var j = new Jeopardy()
     var i = 0
     for (line:String <- source.getLines()) {
       if (i == 0) j.category = line
-      if (i == 1) j.question = line
+      if (i == 1) {
+        j.question = line
+        if (doNLP) {
+          j.nlp = new Sentence(j.question)
+          for(s <- 0 to j.nlp.length - 1){
+            if (j.nlp.posTag(s).contains("NN"))
+              j.nouns+= j.nlp.word(s)
+          }
+        }
+      }
       if (i == 2) j.answer = line.split("\\|")
       if (i == 3) {
         j.rules = GetCatgoryRule(j.category)

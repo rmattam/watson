@@ -8,6 +8,7 @@ import org.apache.lucene.index.{DirectoryReader, IndexWriter, IndexWriterConfig,
 import org.apache.lucene.document.Document
 import org.apache.lucene.index.IndexWriterConfig.OpenMode
 import org.apache.lucene.queryparser.classic.QueryParser
+import org.apache.lucene.search.similarities.ClassicSimilarity
 import org.apache.lucene.search.{IndexSearcher, TermQuery}
 import org.apache.lucene.store.FSDirectory
 
@@ -18,18 +19,18 @@ class Index(val file:String) {
     private val analyzer = new StandardAnalyzer()
     private var writer:IndexWriter = null
 
-    private def Open(mode: OpenMode):Unit = {
-      val config = new IndexWriterConfig(analyzer)
+    private def Open(mode: OpenMode, default:Boolean):Unit = {
+      val config = if (default) new IndexWriterConfig(analyzer) else new IndexWriterConfig(analyzer).setSimilarity(new ClassicSimilarity())
       config.setOpenMode(mode)
       writer = new IndexWriter(luceneIndex, config)
     }
 
-    def Create(): Unit ={
-      Open(OpenMode.CREATE)
+    def Create(default:Boolean): Unit ={
+      Open(OpenMode.CREATE, default)
     }
 
-    def Open(): Unit ={
-      Open(OpenMode.CREATE_OR_APPEND)
+    def Open(default:Boolean): Unit ={
+      Open(OpenMode.CREATE_OR_APPEND, default)
     }
 
     def CloseAll(): Unit ={
@@ -53,12 +54,13 @@ class Index(val file:String) {
       return doc
     }
 
-    def Run(qString: String): ListBuffer[JeopardyResult] = {
+    def Run(qString: String, default: Boolean): ListBuffer[JeopardyResult] = {
       val query = new QueryParser("text", analyzer).parse(qString)
       var doc_score_list = new ListBuffer[JeopardyResult]()
-      val hitsPerPage = 10
+      val hitsPerPage = 20
       val reader = DirectoryReader.open(luceneIndex)
       val searcher:IndexSearcher = new IndexSearcher(reader)
+      if(!default) searcher.setSimilarity(new ClassicSimilarity())
       val docs = searcher.search(query, hitsPerPage)
       val hits = docs.scoreDocs
 

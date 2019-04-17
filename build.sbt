@@ -8,6 +8,9 @@ libraryDependencies += "org.apache.lucene" % "lucene-core" % "7.7.1"
 libraryDependencies += "org.apache.lucene" % "lucene-queryparser" % "7.7.1"
 libraryDependencies += "org.apache.lucene" % "lucene-analyzers-common" % "7.7.1"
 
+libraryDependencies += "edu.stanford.nlp" % "stanford-corenlp" % "3.9.2"
+libraryDependencies += "edu.stanford.nlp" % "stanford-corenlp" % "3.9.2" classifier "models"
+
 libraryDependencies += "org.rogach" %% "scallop" % "3.2.0"
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.5"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
