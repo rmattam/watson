@@ -7,6 +7,7 @@ class Config(arguments: Seq[String]) extends ScallopConf(arguments) {
   val index = opt[String](required = true)
   val query = opt[String](required = true)
   val tfidf = opt[Boolean]()
+  val lemma = opt[Boolean]()
   verify()
 }
 

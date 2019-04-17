@@ -10,6 +10,7 @@ libraryDependencies += "org.apache.lucene" % "lucene-analyzers-common" % "7.7.1"
 
 libraryDependencies += "edu.stanford.nlp" % "stanford-corenlp" % "3.9.2"
 libraryDependencies += "edu.stanford.nlp" % "stanford-corenlp" % "3.9.2" classifier "models"
+libraryDependencies += "org.slf4j" % "slf4j-api" % "1.7.10"
 
 libraryDependencies += "org.rogach" %% "scallop" % "3.2.0"
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.5"

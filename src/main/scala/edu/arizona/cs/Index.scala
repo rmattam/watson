@@ -2,6 +2,8 @@ package edu.arizona.cs
 
 import java.nio.file.Paths
 
+import edu.stanford.nlp.simple
+import org.apache.lucene.analysis.core.WhitespaceAnalyzer
 import org.apache.lucene.analysis.standard.StandardAnalyzer
 import org.apache.lucene.document.{Field, StringField, TextField}
 import org.apache.lucene.index.{DirectoryReader, IndexWriter, IndexWriterConfig, Term}
@@ -11,26 +13,27 @@ import org.apache.lucene.queryparser.classic.QueryParser
 import org.apache.lucene.search.similarities.ClassicSimilarity
 import org.apache.lucene.search.{IndexSearcher, TermQuery}
 import org.apache.lucene.store.FSDirectory
+import collection.JavaConverters._
 
 import scala.collection.mutable.ListBuffer
 
-class Index(val file:String) {
-    private var luceneIndex: FSDirectory = FSDirectory.open(Paths.get(file))
-    private val analyzer = new StandardAnalyzer()
+class Index(val file:String, val bm25:Boolean, val lemma:Boolean) {
+    private val luceneIndex: FSDirectory = FSDirectory.open(Paths.get(file))
+    private val analyzer = if (lemma) new WhitespaceAnalyzer() else new StandardAnalyzer()
     private var writer:IndexWriter = null
 
-    private def Open(mode: OpenMode, default:Boolean):Unit = {
-      val config = if (default) new IndexWriterConfig(analyzer) else new IndexWriterConfig(analyzer).setSimilarity(new ClassicSimilarity())
+    private def Open(mode: OpenMode):Unit = {
+      val config = if (bm25) new IndexWriterConfig(analyzer) else new IndexWriterConfig(analyzer).setSimilarity(new ClassicSimilarity())
       config.setOpenMode(mode)
       writer = new IndexWriter(luceneIndex, config)
     }
 
-    def Create(default:Boolean): Unit ={
-      Open(OpenMode.CREATE, default)
+    def Create(): Unit ={
+      Open(OpenMode.CREATE)
     }
 
-    def Open(default:Boolean): Unit ={
-      Open(OpenMode.CREATE_OR_APPEND, default)
+    def Open(): Unit ={
+      Open(OpenMode.CREATE_OR_APPEND)
     }
 
     def CloseAll(): Unit ={
@@ -48,19 +51,37 @@ class Index(val file:String) {
 
     private def CreateDocument(document: WikiDoc): Document = {
       val doc: Document = new Document()
+
+      var para_1 = document.Content(0)
+      var content = document.Content.slice(0, document.Content.length).mkString(" ")
+
+      if (lemma){
+        val para1_doc = new simple.Document(document.Content(0))
+        val content_doc = new simple.Document(document.Content.slice(0, document.Content.length).mkString(" "))
+        para_1 = ""
+        for(sentence <- para1_doc.sentences().asScala){
+          para_1 += " " + sentence.lemmas().asScala.mkString(" ").toLowerCase()
+        }
+
+        content = ""
+        for(sentence <- content_doc.sentences().asScala){
+          content += " " + sentence.lemmas().asScala.mkString(" ").toLowerCase()
+        }
+      }
+
       doc.add(new StringField("title", document.Title, Field.Store.YES))
-      doc.add(new TextField("para-1", document.Content(0), Field.Store.YES))
-      doc.add(new TextField("text", document.Content.slice(0, document.Content.length).mkString(" "), Field.Store.YES))
+      doc.add(new TextField("para-1", para_1, Field.Store.YES))
+      doc.add(new TextField("text", content, Field.Store.YES))
       return doc
     }
 
-    def Run(qString: String, default: Boolean): ListBuffer[JeopardyResult] = {
+    def Run(qString: String): ListBuffer[JeopardyResult] = {
       val query = new QueryParser("text", analyzer).parse(qString)
       var doc_score_list = new ListBuffer[JeopardyResult]()
       val hitsPerPage = 20
       val reader = DirectoryReader.open(luceneIndex)
       val searcher:IndexSearcher = new IndexSearcher(reader)
-      if(!default) searcher.setSimilarity(new ClassicSimilarity())
+      if(!bm25) searcher.setSimilarity(new ClassicSimilarity())
       val docs = searcher.search(query, hitsPerPage)
       val hits = docs.scoreDocs
 

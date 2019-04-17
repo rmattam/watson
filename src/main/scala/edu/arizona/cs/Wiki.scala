@@ -6,13 +6,13 @@ import java.nio.file.{FileSystem, Files, Paths}
 
 import org.apache.lucene.analysis.standard.StandardAnalyzer
 
-class Wiki(val index_file_path:String = "lucene/watson", val tfidf:Boolean = false) {
+class Wiki(val index_file_path:String = "lucene/watson", val tfidf:Boolean = false, val lemma:Boolean = false) {
 
   var doc = new WikiDoc()
-  val inverted: Index = new Index(index_file_path)
+  val inverted: Index = new Index(index_file_path, !tfidf, lemma)
 
   def Index(dirName: String): Unit = {
-    inverted.Create(!tfidf)
+    inverted.Create()
     try {
       for (file:File <- getFiles(dirName)) {
         println("Indexing file: "+ file.getName)
@@ -31,7 +31,7 @@ class Wiki(val index_file_path:String = "lucene/watson", val tfidf:Boolean = fal
   }
 
   def QueryTop(qString:String, rule: CategoryRules): String ={
-      val res =inverted.Run(qString, !tfidf)
+      val res =inverted.Run(qString)
       if (res.length != 0) {
         var i = 0
         if (!rule.IgnoreTermInQuery){
@@ -56,7 +56,7 @@ class Wiki(val index_file_path:String = "lucene/watson", val tfidf:Boolean = fal
   }
 
   def Query(qString:String): List[String] ={
-    val res =inverted.Run(qString, !tfidf)
+    val res =inverted.Run(qString)
     if (res.length != 0)
       return res.map(_.Title).toList
     else
@@ -108,11 +108,11 @@ class Wiki(val index_file_path:String = "lucene/watson", val tfidf:Boolean = fal
 
   def TestQuery(qString:String): Unit ={
     var proxi = "\"" + qString + "\"~30"
-    var result = inverted.Run(proxi, !tfidf)
+    var result = inverted.Run(proxi)
     proxi = "\"" + qString + "\"~50"
-    result = inverted.Run(proxi, !tfidf)
+    result = inverted.Run(proxi)
     proxi = "\"" + qString + "\"~1000"
-    result = inverted.Run(proxi, !tfidf)
+    result = inverted.Run(proxi)
     println("done")
   }
 

@@ -1,6 +1,5 @@
 package edu.arizona.cs
 import edu.stanford.nlp.simple._
-import collection.JavaConverters._
 
 import scala.collection.mutable.ListBuffer
 import scala.io.Source

@@ -11,7 +11,7 @@ class Evaluate {
   var wiki: Wiki = null
 
   def init_index(conf:Config): Unit ={
-    wiki = new Wiki(conf.index(), conf.tfidf())
+    wiki = new Wiki(conf.index(), conf.tfidf(), conf.lemma())
     if (conf.data.isSupplied) {
       println("reading wiki data from: " + conf.data())
       wiki.Index(conf.data())
