@@ -76,6 +76,7 @@ class Index(val file:String, val bm25:Boolean, val lemma:Boolean) {
     }
 
     def Run(qString: String): ListBuffer[JeopardyResult] = {
+
       val query = new QueryParser("text", analyzer).parse(qString)
       var doc_score_list = new ListBuffer[JeopardyResult]()
       val hitsPerPage = 20
@@ -91,6 +92,7 @@ class Index(val file:String, val bm25:Boolean, val lemma:Boolean) {
         val d = searcher.doc(docId)
         val objResultClass: JeopardyResult = new JeopardyResult()
         objResultClass.Title = d.get("title")
+        objResultClass.Content = d.get("text")
         objResultClass.Score = hits(i).score
         println("Hit:"+ (i+1) +" Title: " + objResultClass.Title + " DocScore: " + objResultClass.Score)
         doc_score_list += (objResultClass)

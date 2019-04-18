@@ -3,9 +3,6 @@ package edu.arizona.cs
 import java.io.{BufferedWriter, FileWriter}
 import java.io.File
 
-import com.sun.net.httpserver.Authenticator.Success
-import jdk.nashorn.internal.runtime.QuotedStringTokenizer
-
 class Evaluate {
 
   var wiki: Wiki = null
@@ -21,7 +18,7 @@ class Evaluate {
   }
 
   def Baseline(fileName:String): Unit ={
-    val tests = Jeopardy.Parse(fileName, true)
+    val tests = Jeopardy.Parse(fileName, false, false)
     var correct = 0
     try {
       for (item: Jeopardy <- tests) {
@@ -42,7 +39,7 @@ class Evaluate {
 
         question = question + " " + item.nouns.mkString("^4 ")
 
-        var prediction = List(wiki.QueryTop(question, item.rules))
+        var prediction = List(wiki.QueryTop(question, item.rules, true, item.question))
         if (item.answer.contains(prediction(0))){
           correct += 1
           report(true, item, prediction)

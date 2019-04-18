@@ -30,18 +30,24 @@ class Wiki(val index_file_path:String = "lucene/watson", val tfidf:Boolean = fal
     }
   }
 
-  def QueryTop(qString:String, rule: CategoryRules): String ={
+  def QueryTop(qString:String, rule: CategoryRules, rerank: Boolean, rawQ: String): String ={
       val res =inverted.Run(qString)
       if (res.length != 0) {
-        var i = 0
+        var filtered_results = ListBuffer[JeopardyResult]()
         if (!rule.IgnoreTermInQuery){
-          while (i < res.length && IsTermInQuery(qString, res(i).Title)) {
-            i += 1
+          for (i <- 0 until res.length) {
+            if(!IsTermInQuery(rawQ, res(i).Title)) filtered_results += res(i)
           }
+        } else {
+          filtered_results = res
         }
-        return res(i).Title
-      } else
-          return ""
+        if (rerank){
+          filtered_results = Reranker(rawQ, filtered_results)
+        }
+        if (filtered_results.length != 0)
+         return filtered_results(0).Title
+      }
+    return ""
   }
 
   private def IsTermInQuery(query:String, term: String): Boolean ={
@@ -52,6 +58,20 @@ class Wiki(val index_file_path:String = "lucene/watson", val tfidf:Boolean = fal
         result = true
       }
     }
+    return result
+  }
+
+  private def Reranker(query:String, prior:ListBuffer[JeopardyResult]): ListBuffer[JeopardyResult] ={
+    if (prior.length == 0) return prior
+    prior.par.map(_.analyze(query))
+
+    val maxscore = prior.maxBy(_.Score)
+    val MaxQsWord = prior.maxBy(_.questionwords_in_answer).questionwords_in_answer
+    val MaxQsWordSent = prior.maxBy(_.questionpairwords_inorder_in_sentence).questionpairwords_inorder_in_sentence
+    val MaxQsWordDoc = prior.maxBy(_.questionpairwords_inorder_in_document).questionpairwords_inorder_in_document
+
+    prior.par.map(_.NormalizeScore(maxscore.Score, MaxQsWord, MaxQsWordSent, MaxQsWordDoc))
+    val result = prior.sortBy(- _.NormalizedScore)
     return result
   }
 

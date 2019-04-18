@@ -6,7 +6,7 @@ The questions used for testing were extracted from j-archive.com, from shows tha
 
 #### TODO
 * Main tasks left
-    * try tf-idf vs BM25 (default)
+    * try tf-idf vs BM25 (default) = done - got exact same results for both
     * try lemmatization with whitespace analyzer vs stemming (default porter stemming)
 
 * v1 performance = 15% Accuracy

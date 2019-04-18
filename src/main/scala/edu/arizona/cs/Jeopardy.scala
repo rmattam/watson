@@ -3,6 +3,7 @@ import edu.stanford.nlp.simple._
 
 import scala.collection.mutable.ListBuffer
 import scala.io.Source
+import collection.JavaConverters._
 
 class Jeopardy {
   var category:String = null
@@ -18,7 +19,7 @@ class CategoryRules(val IgnoreTermInQuery:Boolean = false, val proximity:Boolean
 }
 
 object Jeopardy {
-  def Parse(fileName:String, doNLP:Boolean): ListBuffer[Jeopardy] ={
+  def Parse(fileName:String, doNLP:Boolean, lemma_index:Boolean): ListBuffer[Jeopardy] ={
     val input = ListBuffer[Jeopardy]()
     val source = Source.fromInputStream(getClass.getClassLoader.getResourceAsStream(fileName))
     var j = new Jeopardy()
@@ -27,6 +28,11 @@ object Jeopardy {
       if (i == 0) j.category = line
       if (i == 1) {
         j.question = line
+
+        if(lemma_index) {
+          j.question = new Sentence(j.question).lemmas().asScala.mkString(" ")
+        }
+
         if (doNLP) {
           j.nlp = new Sentence(j.question)
           for(s <- 0 to j.nlp.length - 1){
