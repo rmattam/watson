@@ -1,0 +1,36 @@
+The mast from the USS Maine is part of the memorial to the ship & crew at this national cemetery
+Arlington National Cemetery | Arlington Cemetery
+Thomas W. Lawson (ship) || Hindenburg disaster newsreel footage || George Henry Preble || USCGC Mohawk (WPG-78) || Jamestown (ship) || Edwin M. Shepard || German destroyer Lütjens (D185) || Frank Newcomb
+13825.685745239258 || 9327.296920776367 || 6985.718017578125 || 5906.476501464844 || 4675.02986907959 || 4558.907760620117 || 3866.0035705566406 || 3786.7147827148438
+33.69685745239258 || 27.562969207763672 || 32.04718017578125 || 30.524765014648438 || 30.8002986907959 || 29.449077606201172 || 31.060035705566406 || 30.717147827148438
+9554 || 5897 || 3320 || 2528 || 1376 || 1408 || 658 || 578
+1603984 || 957259 || 417724 || 166691 || 93326 || 69481 || 18758 || 29927
+901 || 674 || 461 || 326 || 219 || 206 || 102 || 137
+
+The mast from the USS Maine is part of the memorial to the ship & crew at this national cemetery
+Arlington National Cemetery | Arlington Cemetery
+USS Arizona Memorial || Thomas W. Lawson (ship) || George Henry Preble || USS Sabine (1855) || German destroyer Lütjens (D185) || Jamestown (ship) || Frank Newcomb || USCGC Mohawk (WPG-78) || USS Bonhomme Richard (LHD-6) || Edwin M. Shepard || USS Minneapolis–Saint Paul (SSN-708) || USS Grenadier (SS-210) || Full-rigged ship || USS Stephen W. Groves (FFG-29) || USS Defiant || USS Cod (SS-224) || USS Annapolis (SSN-760) || Hindenburg disaster newsreel footage || USS Congress (1776) || USS Dallas (SSN-700)
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+36.71611404418945 || 33.69685745239258 || 32.04718017578125 || 31.602659225463867 || 31.060035705566406 || 30.8002986907959 || 30.717147827148438 || 30.524765014648438 || 30.459856033325195 || 29.449077606201172 || 29.18963623046875 || 29.061664581298828 || 28.7725887298584 || 28.722373962402344 || 28.38202476501465 || 28.097402572631836 || 27.8195743560791 || 27.562969207763672 || 27.240875244140625 || 27.217065811157227
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+On May 5, 1878 Alice Chambers was the last person buried in this Dodge City, Kansas cemetery
+Boot Hill
+Doc Holliday || Boot Hill || Late-May 2008 tornado outbreak sequence || Samuel Jay Crumbine || Almon Brown Strowger || Panteón de Dolores || Samuel Medary || Edwin M. Shepard || William S. Gregory || Robert Knollys (courtier) || Asa Biggs
+8890.29850769043 || 5163.006637573242 || 5037.183822631836 || 3713.4734420776367 || 3377.816375732422 || 3247.6740493774414 || 3186.8494033813477 || 3151.5790481567383 || 3087.260726928711 || 3005.673614501953 || 2907.51766204834
+25.672985076904297 || 38.40006637573242 || 24.98183822631836 || 24.604734420776367 || 25.43816375732422 || 25.336740493774414 || 24.368494033813477 || 25.745790481567383 || 27.33260726928711 || 23.39673614501953 || 22.9251766204834
+4395 || 981 || 1751 || 889 || 610 || 466 || 611 || 420 || 289 || 482 || 478
+1559874 || 49547 || 244491 || 59795 || 21432 || 21283 || 8134 || 9873 || 1597 || 15430 || 8092
+1927 || 342 || 788 || 364 || 224 || 248 || 139 || 157 || 65 || 184 || 137
+
+On May 5, 1878 Alice Chambers was the last person buried in this Dodge City, Kansas cemetery
+Boot Hill
+Boot Hill || William S. Gregory || List of people from Dodge City, Kansas || Edwin M. Shepard || Doc Holliday || Almon Brown Strowger || Panteón de Dolores || Dodge City (1939 film) || Late-May 2008 tornado outbreak sequence || John Graham Chambers || Samuel Jay Crumbine || Samuel Medary || Alice B. Toklas || Robert Knollys (courtier) || Kansas || Dodge City, KS || Kansas City Missouri Temple || Billy Al Bengston || Ross Bay Cemetery || Asa Biggs
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+38.40006637573242 || 27.33260726928711 || 27.065811157226562 || 25.745790481567383 || 25.672985076904297 || 25.43816375732422 || 25.336740493774414 || 25.113662719726562 || 24.98183822631836 || 24.640438079833984 || 24.604734420776367 || 24.368494033813477 || 23.785499572753906 || 23.39673614501953 || 23.34149169921875 || 23.298751831054688 || 23.278839111328125 || 22.969398498535156 || 22.93938636779785 || 22.9251766204834
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+

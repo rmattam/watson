@@ -30,7 +30,7 @@ class Wiki(val index_file_path:String = "lucene/watson", val tfidf:Boolean = fal
     }
   }
 
-  def QueryTop(qString:String, rule: CategoryRules, rerank: Boolean, rawQ: String): String ={
+  def QueryTop(qString:String, rule: CategoryRules, rerank: Boolean, rawQ: String): List[JeopardyResult] ={
       val res =inverted.Run(qString)
       if (res.length != 0) {
         var filtered_results = ListBuffer[JeopardyResult]()
@@ -45,9 +45,11 @@ class Wiki(val index_file_path:String = "lucene/watson", val tfidf:Boolean = fal
           filtered_results = Reranker(rawQ, filtered_results)
         }
         if (filtered_results.length != 0)
-         return filtered_results(0).Title
+         return filtered_results.toList
       }
-    return ""
+    val dummy = new JeopardyResult()
+    dummy.Title = ""
+    return List[JeopardyResult](dummy)
   }
 
   private def IsTermInQuery(query:String, term: String): Boolean ={
@@ -75,12 +77,13 @@ class Wiki(val index_file_path:String = "lucene/watson", val tfidf:Boolean = fal
     return result
   }
 
-  def Query(qString:String): List[String] ={
+  def Query(qString:String): List[JeopardyResult] ={
     val res =inverted.Run(qString)
     if (res.length != 0)
-      return res.map(_.Title).toList
-    else
-      return List("")
+      return res.toList
+    val dummy = new JeopardyResult()
+    dummy.Title = ""
+    return List[JeopardyResult](dummy)
   }
 
   def Close(): Unit ={
@@ -126,14 +129,8 @@ class Wiki(val index_file_path:String = "lucene/watson", val tfidf:Boolean = fal
     return inverted.GetDocument(title)
   }
 
-  def TestQuery(qString:String): Unit ={
-    var proxi = "\"" + qString + "\"~30"
-    var result = inverted.Run(proxi)
-    proxi = "\"" + qString + "\"~50"
-    result = inverted.Run(proxi)
-    proxi = "\"" + qString + "\"~1000"
-    result = inverted.Run(proxi)
-    println("done")
+  def TestQuery(qString:String): ListBuffer[JeopardyResult] ={
+    return inverted.Run(qString)
   }
 
 }

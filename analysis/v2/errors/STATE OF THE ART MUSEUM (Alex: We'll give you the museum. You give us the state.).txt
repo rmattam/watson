@@ -1,0 +1,90 @@
+The Naples Museum of Art
+Florida
+Jen Stark || Luca Giordano || Gaspar Roomer || Konrad Grob || Antonello da Messina || Karl Jakob Weber || Eduardo Dalbono || Antonio Rossellino || Ferruccio Zambonini || Giuseppe Simonelli || Fernando Afán de Ribera, duke of Alcalá de los Gazules || Villanella || Accadia || Imagines (work by Philostratus) || Primo Conti || Jacopo Amigoni || Jean-Marc Moret || Achilles and Briseis
+2495.822265625 || 2029.1816482543945 || 1905.0783233642578 || 1883.8646697998047 || 1810.2040786743164 || 1758.6097717285156 || 1734.9680709838867 || 1703.1046867370605 || 1623.0395050048828 || 1557.3610229492188 || 1523.735855102539 || 1499.4856185913086 || 1493.658763885498 || 1490.704605102539 || 1476.4558410644531 || 1467.9360122680664 || 1463.3261032104492 || 1433.531852722168
+19.92822265625 || 17.281816482543945 || 17.720783233642578 || 18.538646697998047 || 16.082040786743164 || 16.336097717285156 || 16.549680709838867 || 15.781046867370605 || 16.010395050048828 || 15.153610229492188 || 14.75735855102539 || 14.424856185913086 || 14.11658763885498 || 14.18704605102539 || 14.164558410644531 || 14.209360122680664 || 14.563261032104492 || 14.12531852722168
+434 || 151 || 61 || 16 || 98 || 59 || 42 || 58 || 9 || 15 || 17 || 24 || 33 || 45 || 19 || 16 || 0 || 8
+806 || 3562 || 840 || 48 || 1333 || 453 || 215 || 548 || 25 || 89 || 127 || 159 || 269 || 97 || 202 || 152 || 3 || 34
+69 || 149 || 72 || 14 || 104 || 66 || 38 || 67 || 13 || 27 || 31 || 33 || 49 || 27 || 41 || 31 || 7 || 13
+
+The Naples Museum of Art
+Florida
+Jen Stark || Konrad Grob || Gaspar Roomer || Luca Giordano || Eduardo Dalbono || Karl Jakob Weber || Antonello da Messina || Ferruccio Zambonini || Antonio Rossellino || Naples underground geothermal zone || Giuseppe Simonelli || Fernando Afán de Ribera, duke of Alcalá de los Gazules || Jean-Marc Moret || Villanella || Jacopo Amigoni || Imagines (work by Philostratus) || Primo Conti || Achilles and Briseis || Accadia || Terra Museum
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+19.92822265625 || 18.538646697998047 || 17.720783233642578 || 17.281816482543945 || 16.549680709838867 || 16.336097717285156 || 16.082040786743164 || 16.010395050048828 || 15.781046867370605 || 15.487772941589355 || 15.153610229492188 || 14.75735855102539 || 14.563261032104492 || 14.424856185913086 || 14.209360122680664 || 14.18704605102539 || 14.164558410644531 || 14.12531852722168 || 14.11658763885498 || 14.035416603088379
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+The Taft Museum of Art
+Ohio
+Anders Zorn || Frederick W. Garber || Sculpture of the United States || Roman De Salvo || Taft–Katsura Agreement || Lytle Tunnel || Susanna Coffey || Republican Party presidential primaries, 1912 || Eyedrum || Aggravation de l'Espace
+2019.424919128418 || 1994.112693786621 || 1990.2114448547363 || 1904.7805213928223 || 1791.5567245483398 || 1729.3379516601562 || 1675.6050758361816 || 1646.6228103637695 || 1538.0331687927246 || 1450.8386039733887
+17.40424919128418 || 17.57112693786621 || 14.592114448547363 || 13.897805213928223 || 14.075567245483398 || 16.573379516601562 || 13.826050758361816 || 14.116228103637695 || 14.700331687927246 || 14.108386039733887
+140 || 120 || 205 || 266 || 209 || 31 || 239 || 66 || 31 || 10
+2892 || 1658 || 14613 || 13557 || 4292 || 199 || 464 || 4375 || 145 || 96
+139 || 117 || 325 || 249 || 175 || 41 || 54 || 169 || 37 || 30
+
+The Taft Museum of Art
+Ohio
+Frederick W. Garber || Anders Zorn || Lytle Tunnel || Kingsley A. Taft || Eyedrum || William Howard Taft IV || William Howard Taft || Bob Taft || Sculpture of the United States || Robert Taft || Republican Party presidential primaries, 1912 || Aggravation de l'Espace || Taft–Katsura Agreement || Terra Museum || Abteiberg Museum || Roman De Salvo || Appleton Museum of Art || Susanna Coffey || Utah Museum of Fine Arts || Museum of Science and Industry (Chicago)
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+17.57112693786621 || 17.40424919128418 || 16.573379516601562 || 14.734734535217285 || 14.700331687927246 || 14.654300689697266 || 14.62594985961914 || 14.613568305969238 || 14.592114448547363 || 14.564509391784668 || 14.116228103637695 || 14.108386039733887 || 14.075567245483398 || 14.035416603088379 || 13.96694564819336 || 13.897805213928223 || 13.87166690826416 || 13.826050758361816 || 13.76441478729248 || 13.685977935791016
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+The Georgia O'Keeffe Museum
+New Mexico
+Alfred Stieglitz || Dan Budnik || Palo Duro Canyon || Linda Emond || Fort James Jackson || Old Governor's Mansion (Milledgeville, Georgia) || Tullie Smith House || Chattooga and Chickamauga Railway || Juliette Gordon Low Historic District || Swan House (Atlanta, Georgia) || Louvre Atlanta || Georgia-Pacific Tower || Dorothy Norman || Julia Clifford || Hala Moddelmog || Collapsing Opposites
+2740.113166809082 || 2441.105743408203 || 1824.0994873046875 || 1741.3701934814453 || 1631.9510345458984 || 1467.1021041870117 || 1428.6806716918945 || 1407.101219177246 || 1396.2869491577148 || 1321.5140686035156 || 1304.5158615112305 || 1240.3632774353027 || 1237.7324142456055 || 1210.689552307129 || 1203.9542083740234 || 1154.6179962158203
+19.61113166809082 || 24.20105743408203 || 17.300994873046875 || 16.993701934814453 || 15.439510345458984 || 14.361021041870117 || 13.896806716918945 || 13.641012191772461 || 12.872869491577148 || 12.605140686035156 || 12.805158615112305 || 12.013632774353027 || 12.087324142456055 || 12.026895523071289 || 11.659542083740234 || 11.346179962158203
+105 || 7 || 6 || 3 || 34 || 13 || 15 || 15 || 36 || 22 || 9 || 3 || 1 || 2 || 6 || 2
+36368 || 31 || 138 || 135 || 349 || 29 || 36 || 119 || 122 || 58 || 31 || 26 || 19 || 2 || 47 || 45
+673 || 14 || 88 || 39 || 54 || 18 || 24 || 28 || 73 || 39 || 15 || 36 || 28 || 6 || 32 || 18
+
+The Georgia O'Keeffe Museum
+New Mexico
+Dan Budnik || Alfred Stieglitz || Palo Duro Canyon || Kain O'Keeffe || Linda Emond || Fort James Jackson || National Museum of Commercial Aviation || Old Governor's Mansion (Milledgeville, Georgia) || Tullie Smith House || Chattooga and Chickamauga Railway || Kristin Bair O'Keeffe || Juliette Gordon Low Historic District || Louvre Atlanta || Swan House (Atlanta, Georgia) || Dorothy Norman || Julia Clifford || Georgia-Pacific Tower || History of Augusta, Georgia || Hala Moddelmog || Collapsing Opposites
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+24.20105743408203 || 19.61113166809082 || 17.300994873046875 || 17.06892967224121 || 16.993701934814453 || 15.439510345458984 || 14.5033540725708 || 14.361021041870117 || 13.896806716918945 || 13.641012191772461 || 13.610273361206055 || 12.872869491577148 || 12.805158615112305 || 12.605140686035156 || 12.087324142456055 || 12.026895523071289 || 12.013632774353027 || 11.793195724487305 || 11.659542083740234 || 11.346179962158203
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+The Kalamazoo Institute of Arts
+Michigan
+Kalamazoo/Battle Creek International Airport || Akio Takamori || Reynolds and Reynolds || Portage Northern High School || Douglas Den Uyl || InIVA || Anton Melik || Kenneth Josephson || Jacques d'Amboise (dancer) || Timothy Björklund || Africa Beyond || Kevin Schamehorn
+1953.8970413208008 || 1760.8518295288086 || 1522.012134552002 || 1500.8160400390625 || 1416.5839347839355 || 1386.335693359375 || 1334.633888244629 || 1293.2298278808594 || 1285.3114471435547 || 1235.3223152160645 || 1206.5937156677246 || 1164.6105308532715
+16.098970413208008 || 11.928518295288086 || 13.01012134552002 || 14.208160400390625 || 13.505839347839355 || 12.25335693359375 || 11.956338882446289 || 11.832298278808594 || 11.993114471435547 || 11.783223152160645 || 11.695937156677246 || 11.626105308532715
+112 || 459 || 74 || 19 || 27 || 85 || 70 || 61 || 39 || 31 || 17 || 0
+5786 || 2477 || 2426 || 433 || 227 || 912 || 698 || 391 || 325 || 106 || 49 || 0
+231 || 109 || 147 || 61 || 39 || 76 || 69 || 49 || 47 || 26 || 20 || 2
+
+The Kalamazoo Institute of Arts
+Michigan
+Kalamazoo Kings || Kalamazoo/Battle Creek International Airport || Portage Northern High School || Douglas Den Uyl || List of California Institute of the Arts people || Reynolds and Reynolds || Kalamazoo Kangaroos || InIVA || Liverpool Institute for Performing Arts || Jacques d'Amboise (dancer) || Anton Melik || Akio Takamori || Kenneth Josephson || Timothy Björklund || Institute of Contemporary Arts Singapore || Central Guoshu Institute || Africa Beyond || Humanities Advanced Technology and Information Institute || Kevin Schamehorn || Portland Institute for Contemporary Art
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+16.48433494567871 || 16.098970413208008 || 14.208160400390625 || 13.505839347839355 || 13.06185531616211 || 13.01012134552002 || 12.988597869873047 || 12.25335693359375 || 12.226886749267578 || 11.993114471435547 || 11.956338882446289 || 11.928518295288086 || 11.832298278808594 || 11.783223152160645 || 11.781074523925781 || 11.771650314331055 || 11.695937156677246 || 11.646596908569336 || 11.626105308532715 || 11.619698524475098
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+The Sun Valley Center for the Arts
+Idaho
+Pacific Union College || Brandon, Manitoba || Sun-Maid || Ajalon || Fontainebleau Resort Las Vegas || Central Guoshu Institute || Ayers Saint Gross || Hayward City Hall || Solar System model || Scott McNealy || Avimor || Ntala Skinner || John Rais || Anni Rossi || List of Lebanese people in the United States
+2856.256359100342 || 2128.3522605895996 || 2101.722759246826 || 1940.1053886413574 || 1779.974452972412 || 1777.6753845214844 || 1763.3259887695312 || 1709.5841751098633 || 1631.2526626586914 || 1573.0216484069824 || 1543.5557174682617 || 1525.7783889770508 || 1483.1401443481445 || 1474.1662063598633 || 1377.6309127807617
+13.632563591003418 || 13.533522605895996 || 14.827227592468262 || 13.921053886413574 || 13.379744529724121 || 14.836753845214844 || 13.763259887695312 || 14.985841751098633 || 13.392526626586914 || 13.750216484069824 || 13.385557174682617 || 13.757783889770508 || 13.731401443481445 || 14.201662063598633 || 13.406309127807617
+946 || 406 || 342 || 371 || 277 || 191 || 223 || 154 || 204 || 92 || 100 || 127 || 48 || 23 || 22
+147515 || 68850 || 37978 || 15443 || 13014 || 4715 || 12962 || 1727 || 3847 || 5395 || 5295 || 239 || 1562 || 411 || 92
+546 || 369 || 277 || 177 || 165 || 103 || 164 || 57 || 88 || 106 || 105 || 23 || 62 || 31 || 15
+
+The Sun Valley Center for the Arts
+Idaho
+Sun Valley High School (North Carolina) || Hayward City Hall || Central Guoshu Institute || Sun-Maid || Ohio Valley Career and Technical Center || Anni Rossi || Ajalon || Grand Valley State University || Ayers Saint Gross || Ntala Skinner || Scott McNealy || John Rais || Hackensack University Medical Center at Pascack Valley || Pacific Union College || Mohawk Valley Community College || Brandon, Manitoba || List of Lebanese people in the United States || Solar System model || Avimor || Fontainebleau Resort Las Vegas
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+15.624597549438477 || 14.985841751098633 || 14.836753845214844 || 14.827227592468262 || 14.81093692779541 || 14.201662063598633 || 13.921053886413574 || 13.840490341186523 || 13.763259887695312 || 13.757783889770508 || 13.750216484069824 || 13.731401443481445 || 13.699607849121094 || 13.632563591003418 || 13.614982604980469 || 13.533522605895996 || 13.406309127807617 || 13.392526626586914 || 13.385557174682617 || 13.379744529724121
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+

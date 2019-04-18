@@ -9,13 +9,14 @@ class Jeopardy {
   var category:String = null
   var answer:Array[String] = null
   var question:String = null
+  var raw_question:String = null
   var rules:CategoryRules = null
 
   var nouns:ListBuffer[String] = ListBuffer[String]()
   var nlp:Sentence = null
 }
 
-class CategoryRules(val IgnoreTermInQuery:Boolean = false, val proximity:Boolean = false, val proximityString:String = ""){
+class CategoryRules(val IgnoreTermInQuery:Boolean = false, val proximity:Boolean = false, val must_occur:List[String] = List[String]()){
 }
 
 object Jeopardy {
@@ -28,9 +29,20 @@ object Jeopardy {
       if (i == 0) j.category = line
       if (i == 1) {
         j.question = line
+        j.raw_question = line
 
         if(lemma_index) {
-          j.question = new Sentence(j.question).lemmas().asScala.mkString(" ")
+          if (j.category == "'80s NO.1 HITMAKERS") {
+            // 1988: "Man In The Mirror" parse this question.
+            j.question = line.slice(0, 4) + " AND "
+            j.question += "\"" + line.slice(7, line.length - 1).toLowerCase() + "\""
+            j.question += " AND best AND selling AND song AND writer"
+
+            j.raw_question = line.replace(":", " ")
+
+          }else {
+            j.question = new Sentence(j.question).lemmas().asScala.mkString(" ").toLowerCase()
+          }
         }
 
         if (doNLP) {
@@ -39,6 +51,7 @@ object Jeopardy {
             if (j.nlp.posTag(s).contains("NN"))
               j.nouns+= j.nlp.word(s)
           }
+          j.question += " " + j.nouns.mkString(" AND ")
         }
       }
       if (i == 2) j.answer = line.split("\\|")
@@ -56,9 +69,9 @@ object Jeopardy {
 
   def GetCatgoryRule(category:String): CategoryRules ={
     if (category == "RANKS & TITLES") return new CategoryRules(true)
-    if (category == "AFRICAN CITIES") return new CategoryRules(false, true, "africa african city")
-    if (category == "GOLDEN GLOBE WINNERS") return new CategoryRules(false, true, "Golden Globe")
-    if (category == "HE PLAYED A GUY NAMED JACK RYAN IN...") return new CategoryRules(false, true, "movie actor")
-    else return new CategoryRules()
+    if (category == "AFRICAN CITIES") return new CategoryRules(false, true, List[String]("city", "african"))
+    if (category == "GOLDEN GLOBE WINNERS") return new CategoryRules(false, true, List[String]("golden", "globe"))
+    if (category == "HE PLAYED A GUY NAMED JACK RYAN IN...") return new CategoryRules(false, true, List[String]("movie", "actor"))
+    return new CategoryRules()
   }
 }

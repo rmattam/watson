@@ -1,0 +1,18 @@
+The Pulitzer-winning "The Making of the President 1960" covered this man's successful presidential campaign
+JFK | John F. Kennedy
+David Plouffe || Lloyd Bentsen || Fireside chats || William Safire || United States Senate Watergate Committee || Eduardo Frei Ruiz-Tagle || Jesse Lee (politician) || James M. Cox || Speed Graphic || Komi Klassou || Colin R. McMillan || Joe Lockhart || A Time for Choosing || Wilton Persons || William C. Cozzens
+6681.697158813477 || 6622.903762817383 || 5208.617111206055 || 5058.685211181641 || 4425.195220947266 || 3793.5856018066406 || 3668.0931091308594 || 3636.2986068725586 || 3314.554244995117 || 3149.3134841918945 || 2820.5288696289062 || 2794.5449295043945 || 2631.7771224975586 || 2561.3863830566406 || 2387.503875732422
+25.016971588134766 || 24.869037628173828 || 23.376171112060547 || 23.796852111816406 || 26.211952209472656 || 21.525856018066406 || 22.930931091308594 || 22.132986068725586 || 25.575542449951172 || 24.883134841918945 || 24.905288696289062 || 22.005449295043945 || 22.537771224975586 || 22.233863830566406 || 21.48503875732422
+3643 || 3366 || 2455 || 2243 || 1625 || 1421 || 1130 || 1209 || 584 || 537 || 260 || 459 || 275 || 266 || 183
+272191 || 623599 || 190226 || 185739 || 35987 || 46669 || 66037 || 45547 || 38595 || 14268 || 5209 || 19953 || 10095 || 5270 || 3029
+537 || 769 || 416 || 436 || 179 || 220 || 245 || 214 || 173 || 124 || 70 || 135 || 103 || 72 || 56
+
+The Pulitzer-winning "The Making of the President 1960" covered this man's successful presidential campaign
+JFK | John F. Kennedy
+United States presidential election in Massachusetts, 1972 || United States Senate Watergate Committee || Speed Graphic || David Plouffe || Colin R. McMillan || Komi Klassou || Lloyd Bentsen || William Safire || Fireside chats || Jesse Lee (politician) || United States presidential election in Rhode Island, 1964 || A Time for Choosing || Wilton Persons || James M. Cox || Joe Lockhart || Marcelo Torcuato de Alvear || Republican Party presidential primaries, 1988 || Eduardo Frei Ruiz-Tagle || William C. Cozzens || Political campaign
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+29.63400650024414 || 26.211952209472656 || 25.575542449951172 || 25.016971588134766 || 24.905288696289062 || 24.883134841918945 || 24.869037628173828 || 23.796852111816406 || 23.376171112060547 || 22.930931091308594 || 22.813650131225586 || 22.537771224975586 || 22.233863830566406 || 22.132986068725586 || 22.005449295043945 || 21.739582061767578 || 21.52871322631836 || 21.525856018066406 || 21.48503875732422 || 21.4737548828125
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+

@@ -1,0 +1,36 @@
+The High Kirk of St. Giles, where John Knox was minister
+Edinburgh
+Church of Scotland || Scottish Episcopal Church || Glasgow Cathedral || William de Braose, 4th Lord of Bramber || Queen's Hall, Edinburgh || Horsted Keynes || Tranent Parish Church || Robert Wydow || Rivers of Life, Oxford || Northern State Conference (IHSAA) || Robert Clohessy
+5592.413398742676 || 4005.8671340942383 || 3164.0880432128906 || 3119.296859741211 || 2927.2379989624023 || 2296.770606994629 || 2252.005325317383 || 2164.9044189453125 || 2164.6992950439453 || 2091.88525390625 || 2050.630096435547
+23.954133987426758 || 19.698671340942383 || 25.800880432128906 || 19.70296859741211 || 24.652379989624023 || 19.35770606994629 || 18.910053253173828 || 18.989044189453125 || 20.616992950439453 || 19.6988525390625 || 18.71630096435547
+2055 || 1245 || 367 || 757 || 271 || 210 || 216 || 160 || 41 || 64 || 96
+234622 || 113109 || 9306 || 28765 || 6105 || 4068 || 3755 || 1639 || 687 || 621 || 1014
+1141 || 791 || 217 || 392 || 191 || 151 || 145 || 106 || 62 || 58 || 83
+
+The High Kirk of St. Giles, where John Knox was minister
+Edinburgh
+John Knox || Stobo Kirk || Glasgow Cathedral || Queen's Hall, Edinburgh || Church of Scotland || Giles of Assisi || John Urquhart Cameron || Rivers of Life, Oxford || Knox Grammar School || John Frush Knox || William de Braose, 4th Lord of Bramber || Northern State Conference (IHSAA) || Scottish Episcopal Church || Horsted Keynes || John Howison || Robert Wydow || St. Edmund Preparatory High School (Brooklyn) || Tranent Parish Church || High Pavement Chapel || Robert Clohessy
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+35.20491409301758 || 27.074811935424805 || 25.800880432128906 || 24.652379989624023 || 23.954133987426758 || 22.05449104309082 || 21.619436264038086 || 20.616992950439453 || 20.525596618652344 || 19.729883193969727 || 19.70296859741211 || 19.6988525390625 || 19.698671340942383 || 19.35770606994629 || 19.00598907470703 || 18.989044189453125 || 18.977079391479492 || 18.910053253173828 || 18.818784713745117 || 18.71630096435547
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+Matthias Church, or Matyas Templom, where Franz Joseph was crowned in 1867
+Budapest
+History of Buda Castle || Defenestrations of Prague || Jean Pierre Flourens || John Moore (Methodist bishop) || Huedin || Charles-Joseph, 7th Prince of Ligne || Erwin Puchinger || Mayerling || Duchess Helene in Bavaria || Commemorative medal of the Mexico Expedition || Basilica of Our Lady of Perpetual Help, Brooklyn || Roman Catholic Archdiocese of Abuja || T. Tertius Noble || Norbert Burgmüller
+3837.933090209961 || 3029.3994750976562 || 2718.1728744506836 || 2718.0054779052734 || 2663.6820068359375 || 2630.2029037475586 || 2573.1942138671875 || 2463.655921936035 || 2413.469207763672 || 2250.1185913085938 || 1992.5473175048828 || 1960.438247680664 || 1947.1280212402344 || 1857.3072204589844
+27.84933090209961 || 16.453994750976562 || 16.781728744506836 || 19.060054779052734 || 22.646820068359375 || 16.402029037475586 || 17.521942138671875 || 22.91655921936035 || 17.25469207763672 || 19.731185913085938 || 16.215473175048828 || 18.39438247680664 || 16.351280212402344 || 16.563072204589844
+452 || 978 || 840 || 648 || 293 || 763 || 663 || 112 || 509 || 182 || 256 || 75 || 253 || 128
+152288 || 79793 || 21333 || 12752 || 4817 || 24280 || 12532 || 1512 || 16408 || 4026 || 6161 || 900 || 1696 || 2449
+600 || 406 || 200 || 164 || 106 || 227 || 158 || 60 || 179 || 95 || 115 || 46 || 59 || 73
+
+Matthias Church, or Matyas Templom, where Franz Joseph was crowned in 1867
+Budapest
+History of Buda Castle || Votive Church, Vienna || Saint Matthias || Mayerling || Franz Xaver Witt || Huedin || Matthias Corvinus || Commemorative medal of the Mexico Expedition || John Moore (Methodist bishop) || Roman Catholic Archdiocese of Abuja || Erwin Puchinger || Duchess Helene in Bavaria || Church of St. Martin de Porres (Poughkeepsie, New York) || St Matthais Old Church || Jean Pierre Flourens || Norbert Burgmüller || Defenestrations of Prague || Charles-Joseph, 7th Prince of Ligne || T. Tertius Noble || Basilica of Our Lady of Perpetual Help, Brooklyn
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+27.84933090209961 || 25.2628116607666 || 24.61609649658203 || 22.91655921936035 || 22.862394332885742 || 22.646820068359375 || 22.325223922729492 || 19.731185913085938 || 19.060054779052734 || 18.39438247680664 || 17.521942138671875 || 17.25469207763672 || 17.150794982910156 || 17.01615333557129 || 16.781728744506836 || 16.563072204589844 || 16.453994750976562 || 16.402029037475586 || 16.351280212402344 || 16.215473175048828
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+

@@ -1,0 +1,99 @@
+"States of the United States"^1000
+testing
+Calisota || United States Senate Select Committee on the Ford Theater Disaster || Washington Irving Chambers || United States House of Representatives election in the U.S. Virgin Islands, 1996 || United States vice-presidential debate, 2000 || List of places named after places in the United States || Age of candidacy laws in the United States || United States Department of the Air Force || List of U.S. states and territories by area || High school rank || List of U.S. states by Amish population || Timeline of women hazzans in the United States || Bell Huey family || United States domestic market || Regional railroad || Russian detainees at Guantanamo Bay || List of aircraft of the United States during World War II || 2002 Hopman Cup || Naha Port Facility || Johnny Reb
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+10353.2138671875 || 10272.6279296875 || 10049.009765625 || 9943.681640625 || 9688.197265625 || 9617.5947265625 || 9513.6005859375 || 9337.986328125 || 9337.986328125 || 9312.2158203125 || 9207.6875 || 9182.630859375 || 9182.630859375 || 9056.6025390625 || 8994.876953125 || 8873.9150390625 || 8873.9150390625 || 8873.9150390625 || 8873.9150390625 || 8756.1640625
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+The Naples Museum of Art  "States of the United States"^1000
+testing
+Calisota || United States Senate Select Committee on the Ford Theater Disaster || Washington Irving Chambers || United States House of Representatives election in the U.S. Virgin Islands, 1996 || United States vice-presidential debate, 2000 || List of places named after places in the United States || Age of candidacy laws in the United States || United States Department of the Air Force || List of U.S. states and territories by area || High school rank || List of U.S. states by Amish population || Timeline of women hazzans in the United States || Bell Huey family || United States domestic market || Regional railroad || Russian detainees at Guantanamo Bay || List of aircraft of the United States during World War II || 2002 Hopman Cup || Naha Port Facility || Johnny Reb
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+10353.2138671875 || 10272.6279296875 || 10049.009765625 || 9943.681640625 || 9688.197265625 || 9617.5947265625 || 9513.6005859375 || 9337.986328125 || 9337.986328125 || 9312.2158203125 || 9207.6875 || 9182.630859375 || 9182.630859375 || 9056.6025390625 || 8994.876953125 || 8873.9150390625 || 8873.9150390625 || 8873.9150390625 || 8873.9150390625 || 8756.1640625
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+The Naples Museum of Art "east south west north"~100  "States of the United States"^1000 "state capital"^1000 "largest city"^1000 "largest metropolitan area"^1000
+testing
+List of cities in Malaysia || Colombo, Paraná || List of people from Augusta, Georgia || Gran Ciudad del Este || Edwin H. Whitehead || Pan-American Highway (North America) || Charleston, West Virginia metropolitan area || History of Augusta, Georgia || Calisota || United States Senate Select Committee on the Ford Theater Disaster || West Coast of the United States || Washington Irving Chambers || United States House of Representatives election in the U.S. Virgin Islands, 1996 || United States vice-presidential debate, 2000 || List of places named after places in the United States || Age of candidacy laws in the United States || United States Department of the Air Force || List of U.S. states and territories by area || High school rank || Wuak
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+17193.8359375 || 16536.23828125 || 15768.25 || 15070.0 || 13536.380859375 || 11171.9462890625 || 10535.388671875 || 10443.08984375 || 10353.2138671875 || 10272.6279296875 || 10252.81640625 || 10049.009765625 || 9943.681640625 || 9688.197265625 || 9617.5947265625 || 9513.6005859375 || 9337.986328125 || 9337.986328125 || 9312.2158203125 || 9221.73828125
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+The Naples Museum of Art "east south west north"~100  "States of the United States"^1000 "state capital largest city largest metropolitan area"~100
+testing
+Calisota || United States Senate Select Committee on the Ford Theater Disaster || Washington Irving Chambers || United States House of Representatives election in the U.S. Virgin Islands, 1996 || United States vice-presidential debate, 2000 || List of places named after places in the United States || Age of candidacy laws in the United States || United States Department of the Air Force || List of U.S. states and territories by area || High school rank || List of U.S. states by Amish population || Timeline of women hazzans in the United States || Bell Huey family || United States domestic market || Regional railroad || Russian detainees at Guantanamo Bay || List of aircraft of the United States during World War II || 2002 Hopman Cup || Naha Port Facility || Johnny Reb
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+10353.2138671875 || 10272.6279296875 || 10049.009765625 || 9943.681640625 || 9688.197265625 || 9617.5947265625 || 9513.6005859375 || 9337.986328125 || 9337.986328125 || 9312.2158203125 || 9207.6875 || 9182.630859375 || 9182.630859375 || 9056.6025390625 || 8994.876953125 || 8873.9150390625 || 8873.9150390625 || 8873.9150390625 || 8873.9150390625 || 8756.1640625
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+The Naples Museum of Art "united states east south west north"~20  "States of the United States"^1000 "state capital largest city largest metropolitan area"~20
+testing
+Calisota || United States Senate Select Committee on the Ford Theater Disaster || Washington Irving Chambers || United States House of Representatives election in the U.S. Virgin Islands, 1996 || United States vice-presidential debate, 2000 || List of places named after places in the United States || Age of candidacy laws in the United States || United States Department of the Air Force || List of U.S. states and territories by area || High school rank || List of U.S. states by Amish population || Timeline of women hazzans in the United States || Bell Huey family || United States domestic market || Regional railroad || Russian detainees at Guantanamo Bay || List of aircraft of the United States during World War II || 2002 Hopman Cup || Naha Port Facility || Johnny Reb
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+10353.2138671875 || 10272.6279296875 || 10049.009765625 || 9943.681640625 || 9688.197265625 || 9617.5947265625 || 9513.6005859375 || 9337.986328125 || 9337.986328125 || 9312.2158203125 || 9207.6875 || 9182.630859375 || 9182.630859375 || 9056.6025390625 || 8994.876953125 || 8873.9150390625 || 8873.9150390625 || 8873.9150390625 || 8873.9150390625 || 8756.1640625
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+The Naples Museum of Art para-1:"united states east south west north"~20  para-1:"States of the United States"^1000 para-1:"state capital largest city largest metropolitan area"~20
+testing
+Calisota || United States Senate Select Committee on the Ford Theater Disaster || High school rank || List of U.S. states and territories by area || Age of candidacy laws in the United States || Office action || United States House of Representatives election in the U.S. Virgin Islands, 1996 || Student and Exchange Visitor Program || United States vice-presidential debate, 2004 || Freedom of religion in the United States || John Rodgers (naval officer, World War I) || General Atomics ALTUS || McBoyle v. United States || Frendak v. United States || Richard M. Rowell || Daniel Brandenstein || Chaplain Assistant || Kotohira Jinsha v. McGrath || State court (United States) || American Liberty League
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+11508.865234375 || 11020.6064453125 || 10904.947265625 || 10697.0673828125 || 10465.609375 || 9792.7314453125 || 9337.0908203125 || 9172.2490234375 || 9172.2490234375 || 9091.9912109375 || 8784.53125 || 8784.53125 || 8784.53125 || 8710.888671875 || 8567.2451171875 || 8507.501953125 || 8432.0283203125 || 8428.2626953125 || 8428.2626953125 || 8293.716796875
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+acquired parent headquarters milton bradley company
+testing
+Axis & Allies || Microvision || Wolseley UK || Hasbro || Battleship (game) || Data Transmission Network || Pueblo Supermarkets || Vectrex || Rockwell International || Seagrave Fire Apparatus || Swiss Arms || Springleaf Financial || MTX Audio || Net2Phone || Battalion || UBM plc || Stella (guitar) || Avantis || Yunnan Copper || James W. Walter, Sr.
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+24.078676223754883 || 22.695240020751953 || 22.31521224975586 || 22.307668685913086 || 20.45460319519043 || 19.706436157226562 || 19.60898208618164 || 19.38092803955078 || 19.079442977905273 || 18.897005081176758 || 18.43648910522461 || 18.375659942626953 || 18.124679565429688 || 18.114429473876953 || 17.868759155273438 || 17.602519989013672 || 17.58364486694336 || 17.54882049560547 || 17.541635513305664 || 17.293615341186523
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+"acquired parent headquarters milton bradley company"~100
+testing
+
+
+
+
+
+
+
+"acquired parent milton bradley company"~100
+testing
+Axis & Allies
+0.0
+0.285383015871048
+0
+0
+0
+
+"acquired milton bradley company"~100
+testing
+Hasbro || Axis & Allies || Crayon
+0.0 || 0.0 || 0.0
+3.341097593307495 || 0.31115955114364624 || 0.1389571875333786
+0 || 0 || 0
+0 || 0 || 0
+0 || 0 || 0
+
+"acquired milton bradley games"~100
+testing
+Axis & Allies
+0.0
+0.2113250494003296
+0
+0
+0
+

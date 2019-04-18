@@ -20,8 +20,11 @@ object Main {
       eval.init_index(conf)
       eval.Baseline(conf.query())
 
-      //eval.ViewDocument("Kelsey Grammer")
-      //eval.TestQuery("2011: Chicago mayor Tom Kane Golden Globe")
+      //eval.ViewDocument("Hasbro")
+//      import edu.stanford.nlp.simple._
+//      import collection.JavaConverters._
+//      var lemms = new Sentence("rock with you").lemmas().asScala.mkString(" ")
+//      eval.TestQuery("1980 AND \"rock with you\"AND best AND selling AND song AND writer" , "1980 rock with you")
       println("search done")
     } catch {
       case ex: Exception => println(ex.getMessage)
