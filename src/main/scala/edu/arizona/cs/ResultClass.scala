@@ -69,14 +69,9 @@ class JeopardyResult {
 
   def NormalizeScore(MaxScore: Double, MaxQsWord:Int, MaxQsWordSent: Int, MaxQsWordDoc: Int): Unit ={
 
-//    NormalizedScore =  (if (MaxScore == 0) Score else (Score /  MaxScore)) +
-//      (if (MaxQsWordDoc == 0) questionpairwords_inorder_in_document else (questionpairwords_inorder_in_document/MaxQsWordDoc)) +
-//      (if (MaxQsWordSent == 0) questionpairwords_inorder_in_sentence else (questionpairwords_inorder_in_sentence/MaxQsWordSent)) +
-//        (if (MaxQsWord == 0) questionwords_in_answer else (questionwords_in_answer/ MaxQsWord))
-
     NormalizedScore = (Score*150) +
-      //(if (MaxQsWordDoc == 0) questionpairwords_inorder_in_document else (questionpairwords_inorder_in_document/MaxQsWordDoc) * 10) +
-      //(if (MaxQsWordSent == 0) questionpairwords_inorder_in_sentence else (questionpairwords_inorder_in_sentence/MaxQsWordSent) * 60) +
+      (if (MaxQsWordDoc == 0) questionpairwords_inorder_in_document else (questionpairwords_inorder_in_document/MaxQsWordDoc)) +
+      (if (MaxQsWordSent == 0) questionpairwords_inorder_in_sentence else (questionpairwords_inorder_in_sentence/MaxQsWordSent)) +
       questionwords_in_answer
   }
 }

@@ -1,0 +1,27 @@
+("the sum of all fear" OR "the sum of all fears") AND ("good will hunting" OR "good will hunting") AND "jack ryan"
+Ben Affleck
+Ben Affleck
+2978.9227027893066
+13.846151351928711
+1489
+241519
+902
+
+("the hunt for red october" OR "the hunt for red october") AND ("30 rock" OR "30 rock") AND "jack ryan"
+Alec Baldwin
+Alec Baldwin
+3235.4667587280273
+17.123111724853516
+786
+142090
+667
+
+("patriot game" OR "patriot games") AND "jack ryan"
+Harrison Ford
+Harrison Ford || Thora Birch
+2083.081251144409 || 1979.0856113433838
+8.513875007629395 || 11.033904075622559
+1021 || 299
+127154 || 19040
+806 || 324
+

@@ -1,0 +1,45 @@
+1988 AND "father figure" AND best AND selling AND song AND writer
+George Michael
+George Michael || Casablanca (film)
+2010.1776638031006 || 1538.3444957733154
+11.041184425354004 || 8.80229663848877
+249 || 116
+16925 || 6430
+354 || 218
+
+1983 AND "beat it" AND best AND selling AND song AND writer
+Michael Jackson
+Michael Jackson || "Weird Al" Yankovic
+2586.748115539551 || 2219.904375076294
+12.798320770263672 || 9.966029167175293
+560 || 781
+74678 || 76229
+667 || 725
+
+1988 AND "man in the mirror" AND best AND selling AND song AND writer
+Michael Jackson
+Michael Jackson
+3766.2762413024902
+11.435174942016602
+1777
+688897
+2051
+
+1989 AND "miss you much" AND best AND selling AND song AND writer
+Janet Jackson
+Janet Jackson
+2012.2154483795166
+7.408102989196777
+751
+120618
+901
+
+1980 AND "rock with you" AND best AND selling AND song AND writer
+Michael Jackson
+Michael Jackson
+2373.1163291931152
+10.800775527954102
+616
+100727
+753
+

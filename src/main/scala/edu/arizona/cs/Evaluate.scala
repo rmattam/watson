@@ -3,6 +3,8 @@ package edu.arizona.cs
 import java.io.{BufferedWriter, FileWriter}
 import java.io.File
 
+import scala.collection.mutable.ListBuffer
+
 class Evaluate {
 
   var wiki: Wiki = null
@@ -27,19 +29,16 @@ class Evaluate {
         // characters which have to be escaped: + - && || ! ( ) { } [ ] ^ " ~ * ? : \
         val question = item.question.replace('-', ' ').replace('!', ' ').replace(';',' ').replace(':', ' ')
 
-//        if (item.rules.proximity){
-//          var temp_question = ""
-//          val tokens = question.split("\\s+")
-//          var i = 0
-//          while (i < tokens.length-2){
-//            if (temp_question != "") temp_question += " OR "
-//            temp_question += "\"" + tokens(i) + " " + tokens(i+1) + " " + tokens(i+2) + " " + item.rules.proximityString + "\"~100"
-//            i+=1
-//          }
-//          question = "("+ question + ") OR (" + temp_question + ")"
-//        }
-
         var prediction = wiki.QueryTop(question, item.rules, true, item.raw_question)
+
+        if (item.category == "\"TIN\" MEN"){
+          var filter = new ListBuffer[JeopardyResult]()
+          for (pred <- prediction){
+            if (pred.Title.toLowerCase().contains("tin")) filter += pred
+          }
+          prediction = filter.toList
+        }
+
         if (item.answer.contains(prediction(0).Title)){
           correct += 1
           report(true, item, prediction)

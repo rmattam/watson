@@ -16,7 +16,7 @@ class Jeopardy {
   var nlp:Sentence = null
 }
 
-class CategoryRules(val IgnoreTermInQuery:Boolean = false, val proximity:Boolean = false, val must_occur:List[String] = List[String]()){
+class CategoryRules(val IgnoreTermInQuery:Boolean = false){
 }
 
 object Jeopardy {
@@ -44,6 +44,22 @@ object Jeopardy {
             j.raw_question = line.toLowerCase().stripPrefix("in ").replace(":", " ")
             j.question = j.raw_question.split("[ ]+").mkString(" AND ")
             j.question += " AND \"golden globe award for best\" AND actor^3.3"
+          } else if (j.category == "HE PLAYED A GUY NAMED JACK RYAN IN..."){
+            var capture_span = false
+            var span = ""
+            val spans = ListBuffer[String]()
+            for(c <- 0 until line.length){
+              if (line(c) == '\"'){
+                capture_span = !capture_span
+                if (!capture_span) {
+                  spans += "(\"" + new Sentence(span).lemmas().asScala.mkString(" ") + "\" OR \"" + span + "\")"
+                  span = ""
+                }
+              } else{
+                if (capture_span) span += line(c).toLower
+              }
+            }
+            j.question = spans.mkString(" AND ") + " AND \"jack ryan\""
           } else {
             j.question = new Sentence(j.question).lemmas().asScala.mkString(" ").toLowerCase()
           }
@@ -73,9 +89,6 @@ object Jeopardy {
 
   def GetCatgoryRule(category:String): CategoryRules ={
     if (category == "RANKS & TITLES") return new CategoryRules(true)
-    if (category == "AFRICAN CITIES") return new CategoryRules(false, true, List[String]("city", "african"))
-    if (category == "GOLDEN GLOBE WINNERS") return new CategoryRules(false, true, List[String]("golden", "globe"))
-    if (category == "HE PLAYED A GUY NAMED JACK RYAN IN...") return new CategoryRules(false, true, List[String]("movie", "actor"))
     return new CategoryRules()
   }
 }

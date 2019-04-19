@@ -1,0 +1,18 @@
+2011 AND chicago AND mayor AND tom AND kane AND "golden globe award for best" AND actor^3.3
+Kelsey Grammer
+
+0.0
+0.0
+0
+0
+0
+
+2011 AND chicago AND mayor AND tom AND kane AND "golden globe award for best" AND actor^3.3
+Kelsey Grammer
+
+0.0
+0.0
+0
+0
+0
+

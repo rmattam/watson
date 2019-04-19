@@ -1,0 +1,18 @@
+the mast from the uss maine be part of the memorial to the ship & crew at this national cemetery
+Arlington National Cemetery | Arlington Cemetery
+Thomas W. Lawson (ship) || Honda Point Disaster || USCGC Mohawk (WPG-78) || George Henry Preble || Margate Surfboat || Hindenburg disaster newsreel footage || John Rodgers (naval officer, World War I) || Brig || Jamestown (ship) || Frank Newcomb || Edwin M. Shepard
+8363.356948852539 || 7995.155067443848 || 7551.710296630859 || 7500.515281677246 || 7302.586357116699 || 7234.076713562012 || 7030.491584777832 || 6900.432022094727 || 6843.667739868164 || 6671.016799926758 || 6627.750259399414
+49.749046325683594 || 46.001033782958984 || 48.17140197753906 || 46.92343521118164 || 46.07057571411133 || 43.73384475708008 || 44.57661056518555 || 42.949546813964844 || 44.164451599121094 || 43.56011199951172 || 42.811668395996094
+9554 || 8916 || 2528 || 3323 || 2320 || 5897 || 2582 || 3177 || 1376 || 578 || 1408
+1603984 || 2420474 || 166691 || 418435 || 286286 || 957259 || 220764 || 405530 || 93326 || 29927 || 69481
+901 || 1095 || 326 || 462 || 392 || 674 || 344 || 458 || 219 || 137 || 206
+
+the mast from the uss maine be part of the memorial to the ship & crew at this national cemetery
+Arlington National Cemetery | Arlington Cemetery
+USS Arizona Memorial || Thomas W. Lawson (ship) || USCGC Mohawk (WPG-78) || George Henry Preble || USS Bonhomme Richard (LHD-6) || Margate Surfboat || USS Minneapolis–Saint Paul (SSN-708) || Honda Point Disaster || USS Sabine (1855) || John Rodgers (naval officer, World War I) || USS Grenadier (SS-210) || Jamestown (ship) || USS Cod (SS-224) || Hindenburg disaster newsreel footage || Frank Newcomb || USS Defiant || Brig || Edwin M. Shepard || USS Congress (1776) || USS Dallas (SSN-700)
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+53.78881072998047 || 49.749046325683594 || 48.17140197753906 || 46.92343521118164 || 46.31239700317383 || 46.07057571411133 || 46.06700897216797 || 46.001033782958984 || 45.180423736572266 || 44.57661056518555 || 44.28556442260742 || 44.164451599121094 || 43.750396728515625 || 43.73384475708008 || 43.56011199951172 || 43.1690559387207 || 42.949546813964844 || 42.811668395996094 || 42.722496032714844 || 42.345985412597656
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+

@@ -1,0 +1,90 @@
+the naples museum of art
+Florida
+Jen Stark || Konrad Grob || Luca Giordano || Gazmend Leka || Gaspar Roomer || Eduardo Dalbono || Vincenzo Abbati || Karl Jakob Weber || Antonello da Messina || Ferruccio Zambonini || Salvatore Mormile || Antonio Rossellino || Giuseppe Simonelli || Axel Munthe || Fernando Afán de Ribera, duke of Alcalá de los Gazules || Jacopo Amigoni || Villanella || Jean-Marc Moret || Achilles and Briseis
+3465.098041534424 || 3312.0968475341797 || 3258.032440185547 || 3150.655830383301 || 3103.7816734313965 || 3032.56205368042 || 2948.1203804016113 || 2908.2417640686035 || 2893.076805114746 || 2838.57373046875 || 2832.507007598877 || 2778.0873222351074 || 2707.821990966797 || 2707.6838035583496 || 2635.7239303588867 || 2603.2816467285156 || 2565.363510131836 || 2557.751304626465 || 2530.7236557006836
+22.640653610229492 || 21.98731231689453 || 20.726882934570312 || 20.917705535888672 || 20.211877822875977 || 19.963747024536133 || 19.480802536010742 || 18.948278427124023 || 18.59384536743164 || 18.837158203125 || 18.76338005065918 || 18.073915481567383 || 17.872146606445312 || 16.871225357055664 || 17.364826202392578 || 17.148544311523438 || 16.882423400878906 || 17.005008697509766 || 16.78482437133789
+434 || 16 || 151 || 9 || 61 || 42 || 38 || 59 || 98 || 9 || 11 || 58 || 15 || 75 || 17 || 16 || 24 || 0 || 8
+806 || 48 || 3562 || 36 || 840 || 215 || 123 || 453 || 1333 || 25 || 44 || 548 || 89 || 3993 || 127 || 152 || 159 || 3 || 34
+69 || 14 || 149 || 13 || 72 || 38 || 26 || 66 || 104 || 13 || 18 || 67 || 27 || 177 || 31 || 31 || 33 || 7 || 13
+
+the naples museum of art
+Florida
+Jen Stark || Konrad Grob || Gazmend Leka || Luca Giordano || Gaspar Roomer || Eduardo Dalbono || Vincenzo Abbati || Karl Jakob Weber || Ferruccio Zambonini || Salvatore Mormile || Antonello da Messina || Naples underground geothermal zone || Antonio Rossellino || Giuseppe Simonelli || Fernando Afán de Ribera, duke of Alcalá de los Gazules || Jacopo Amigoni || Jean-Marc Moret || Villanella || Axel Munthe || Achilles and Briseis
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+22.640653610229492 || 21.98731231689453 || 20.917705535888672 || 20.726882934570312 || 20.211877822875977 || 19.963747024536133 || 19.480802536010742 || 18.948278427124023 || 18.837158203125 || 18.76338005065918 || 18.59384536743164 || 18.543636322021484 || 18.073915481567383 || 17.872146606445312 || 17.364826202392578 || 17.148544311523438 || 17.005008697509766 || 16.882423400878906 || 16.871225357055664 || 16.78482437133789
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+the taft museum of art
+Ohio
+Anders Zorn || Frederick W. Garber || Lytle Tunnel || Sculpture of the United States || Republican Party presidential primaries, 1912 || Taft–Katsura Agreement || Juliette Gordon Low Historic District || Eyedrum || On Deadly Ground || Brian Shactman || Susanna Coffey
+3235.682834625244 || 3099.0470809936523 || 2869.9053916931152 || 2856.7317962646484 || 2760.7165756225586 || 2697.0529556274414 || 2692.459499359131 || 2668.0401916503906 || 2621.266845703125 || 2522.957489013672 || 2505.3965606689453
+20.64455223083496 || 19.880313873291016 || 18.8593692779541 || 16.878211975097656 || 17.27811050415039 || 16.81368637084961 || 17.36972999572754 || 17.540267944335938 || 16.6151123046875 || 16.673049926757812 || 16.34264373779297
+140 || 120 || 31 || 201 || 66 || 209 || 77 || 31 || 49 || 10 || 239
+2892 || 1658 || 199 || 14613 || 4375 || 4292 || 886 || 145 || 2383 || 60 || 464
+139 || 117 || 41 || 325 || 169 || 175 || 87 || 37 || 129 || 22 || 54
+
+the taft museum of art
+Ohio
+Anders Zorn || Frederick W. Garber || William Howard Taft IV || William Howard Taft || Lytle Tunnel || Bob Taft || Kingsley A. Taft || Robert Taft || Museum of Science and Industry (Chicago) || Eyedrum || Juliette Gordon Low Historic District || Republican Party presidential primaries, 1912 || Sculpture of the United States || Taft–Katsura Agreement || Brian Shactman || On Deadly Ground || Terra Museum || Art museum || Utah Museum of Fine Arts || Susanna Coffey
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+20.64455223083496 || 19.880313873291016 || 19.7325382232666 || 19.12049674987793 || 18.8593692779541 || 17.8383846282959 || 17.80828857421875 || 17.785625457763672 || 17.564115524291992 || 17.540267944335938 || 17.36972999572754 || 17.27811050415039 || 16.878211975097656 || 16.81368637084961 || 16.673049926757812 || 16.6151123046875 || 16.55933952331543 || 16.46139907836914 || 16.400177001953125 || 16.34264373779297
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+the georgia o'keeffe museum
+New Mexico
+Alfred Stieglitz || Dan Budnik || Palo Duro Canyon || Linda Emond || Fort James Jackson || Old Governor's Mansion (Milledgeville, Georgia) || Dorchester Academy || Joel Chandler Harris House || Tullie Smith House || Juliette Gordon Low Historic District || Swan House (Atlanta, Georgia) || Chattooga and Chickamauga Railway || Henry W. Grady House || Louvre Atlanta || St. Mary's Church (Wappingers Falls, New York) || Julia Clifford
+3968.707962036133 || 3938.3762016296387 || 2824.581611633301 || 2697.3455085754395 || 2638.823513031006 || 2619.829147338867 || 2558.31729888916 || 2533.1795043945312 || 2512.597869873047 || 2434.1520290374756 || 2372.338737487793 || 2321.8498973846436 || 2317.2789764404297 || 2283.807077407837 || 2263.538600921631 || 2055.577474594116
+21.99138641357422 || 26.162508010864258 || 18.243877410888672 || 17.72230339050293 || 17.23215675354004 || 17.34552764892578 || 16.922115325927734 || 16.674530029296875 || 16.590652465820312 || 15.741013526916504 || 15.555591583251953 || 15.292332649230957 || 15.315193176269531 || 15.125380516052246 || 14.410257339477539 || 13.663849830627441
+97 || 7 || 6 || 3 || 34 || 13 || 12 || 24 || 15 || 36 || 22 || 15 || 9 || 9 || 0 || 2
+34960 || 31 || 138 || 135 || 349 || 29 || 12 || 30 || 36 || 122 || 58 || 119 || 9 || 31 || 301 || 2
+670 || 14 || 88 || 39 || 54 || 18 || 20 || 32 || 24 || 73 || 39 || 28 || 20 || 15 || 102 || 6
+
+the georgia o'keeffe museum
+New Mexico
+Dan Budnik || Alfred Stieglitz || Kain O'Keeffe || Palo Duro Canyon || Linda Emond || Old Governor's Mansion (Milledgeville, Georgia) || Fort James Jackson || Dorchester Academy || Joel Chandler Harris House || Tullie Smith House || National Museum of Commercial Aviation || Juliette Gordon Low Historic District || Swan House (Atlanta, Georgia) || Henry W. Grady House || Chattooga and Chickamauga Railway || Kristin Bair O'Keeffe || Louvre Atlanta || St. Mary's Church (Wappingers Falls, New York) || History of Augusta, Georgia || Julia Clifford
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+26.162508010864258 || 21.99138641357422 || 18.57906723022461 || 18.243877410888672 || 17.72230339050293 || 17.34552764892578 || 17.23215675354004 || 16.922115325927734 || 16.674530029296875 || 16.590652465820312 || 16.16181755065918 || 15.741013526916504 || 15.555591583251953 || 15.315193176269531 || 15.292332649230957 || 15.164642333984375 || 15.125380516052246 || 14.410257339477539 || 14.188539505004883 || 13.663849830627441
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+the kalamazoo institute of art
+Michigan
+Kalamazoo/Battle Creek International Airport || Portage Northern High School || Douglas Den Uyl || Akio Takamori || Kenneth Josephson || Superposition (art installation) || InIVA || Maud le Vavasour, Baroness Butler || Flying Dragon (Calder) || Ross Kenseth || Susanna Coffey || Ruth Root
+3031.444507598877 || 2592.2411308288574 || 2520.8427085876465 || 2321.8973960876465 || 2301.8512954711914 || 2291.762119293213 || 2251.0635147094727 || 2247.6414947509766 || 2244.747838973999 || 2222.0489044189453 || 2212.353132247925 || 2176.830799102783
+18.66963005065918 || 16.874940872192383 || 16.545618057250977 || 14.752649307250977 || 15.01900863647461 || 14.905080795288086 || 14.500423431396484 || 14.630943298339844 || 14.73165225982666 || 14.633659362792969 || 14.429020881652832 || 14.298871994018555
+108 || 19 || 27 || 439 || 61 || 50 || 85 || 40 || 50 || 1 || 167 || 37
+5786 || 433 || 227 || 2477 || 391 || 476 || 912 || 273 || 186 || 64 || 348 || 201
+231 || 61 || 39 || 109 || 49 || 56 || 76 || 53 || 35 || 27 || 48 || 32
+
+the kalamazoo institute of art
+Michigan
+Kalamazoo Kings || Kalamazoo/Battle Creek International Airport || Portage Northern High School || Douglas Den Uyl || Kalamazoo Kangaroos || Kenneth Josephson || Superposition (art installation) || List of California Institute of the Arts people || Kinsey Institute for Research in Sex, Gender, and Reproduction || Akio Takamori || Flying Dragon (Calder) || Dundee Institute of Architects || Ross Kenseth || Maud le Vavasour, Baroness Butler || InIVA || San Francisco Art Institute || Susanna Coffey || Liverpool Institute for Performing Arts || Portland Institute for Contemporary Art || Ruth Root
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+19.367033004760742 || 18.66963005065918 || 16.874940872192383 || 16.545618057250977 || 15.971379280090332 || 15.01900863647461 || 14.905080795288086 || 14.885398864746094 || 14.773737907409668 || 14.752649307250977 || 14.73165225982666 || 14.647989273071289 || 14.633659362792969 || 14.630943298339844 || 14.500423431396484 || 14.49881362915039 || 14.429020881652832 || 14.36882209777832 || 14.30959701538086 || 14.298871994018555
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
+the sun valley center for the art
+Idaho
+Roanoke, Virginia || Xochicalco || Sun-Maid || Judy Fiskin || Nathan H. Juran || Ayers Saint Gross || Lima Region || John Rais || Flag of Kazakhstan || Central Guoshu Institute || Ibiblio || Hayward City Hall || Reverence (sculpture) || Rockne Krebs || Solar System model || Ntala Skinner || Anni Rossi
+4100.044597625732 || 3344.5490379333496 || 3192.5168533325195 || 3086.885810852051 || 3049.659637451172 || 3003.918899536133 || 2968.06196975708 || 2943.2841415405273 || 2939.889507293701 || 2937.084415435791 || 2928.652084350586 || 2927.96529006958 || 2922.1182556152344 || 2919.680316925049 || 2913.2067337036133 || 2895.7033615112305 || 2861.7052612304688
+18.740297317504883 || 20.950326919555664 || 19.436779022216797 || 19.239238739013672 || 19.804397583007812 || 18.93279266357422 || 18.800413131713867 || 19.208560943603516 || 18.899263381958008 || 18.893896102905273 || 19.104347229003906 || 19.139768600463867 || 18.834121704101562 || 18.744535446166992 || 18.828044891357422 || 19.151355743408203 || 18.871368408203125
+1424 || 294 || 342 || 648 || 159 || 223 || 329 || 48 || 441 || 191 || 101 || 130 || 106 || 184 || 212 || 127 || 23
+832833 || 20260 || 37978 || 19130 || 2677 || 12962 || 10772 || 1562 || 5390 || 4715 || 1823 || 1727 || 4482 || 5494 || 3930 || 239 || 411
+1289 || 202 || 277 || 201 || 79 || 164 || 148 || 62 || 105 || 103 || 63 || 57 || 97 || 108 || 89 || 23 || 31
+
+the sun valley center for the art
+Idaho
+Sun Valley High School (North Carolina) || Xochicalco || Grand Valley State University || Nathan H. Juran || Sun-Maid || Ohio Valley Career and Technical Center || Judy Fiskin || John Rais || Ntala Skinner || Hayward City Hall || Ibiblio || Ayers Saint Gross || Flag of Kazakhstan || Central Guoshu Institute || Anni Rossi || Reverence (sculpture) || Solar System model || Lima Region || Rockne Krebs || Roanoke, Virginia
+0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0 || 0.0
+21.088985443115234 || 20.950326919555664 || 20.828174591064453 || 19.804397583007812 || 19.436779022216797 || 19.256731033325195 || 19.239238739013672 || 19.208560943603516 || 19.151355743408203 || 19.139768600463867 || 19.104347229003906 || 18.93279266357422 || 18.899263381958008 || 18.893896102905273 || 18.871368408203125 || 18.834121704101562 || 18.828044891357422 || 18.800413131713867 || 18.744535446166992 || 18.740297317504883
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+
