@@ -75,8 +75,8 @@ class JeopardyResult {
 //        (if (MaxQsWord == 0) questionwords_in_answer else (questionwords_in_answer/ MaxQsWord))
 
     NormalizedScore = (Score*150) +
-      //(if (MaxQsWordDoc == 0) questionpairwords_inorder_in_document else (questionpairwords_inorder_in_document/MaxQsWordDoc)) +
-      (if (MaxQsWordSent == 0) questionpairwords_inorder_in_sentence else (questionpairwords_inorder_in_sentence/MaxQsWordSent)) +
+      //(if (MaxQsWordDoc == 0) questionpairwords_inorder_in_document else (questionpairwords_inorder_in_document/MaxQsWordDoc) * 10) +
+      //(if (MaxQsWordSent == 0) questionpairwords_inorder_in_sentence else (questionpairwords_inorder_in_sentence/MaxQsWordSent) * 60) +
       questionwords_in_answer
   }
 }

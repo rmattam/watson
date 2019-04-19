@@ -19,15 +19,7 @@ object Main {
       val eval = new Evaluate()
       eval.init_index(conf)
       eval.Baseline(conf.query())
-
-      //eval.ViewDocument("Hasbro")
-//      import edu.stanford.nlp.simple._
-//      import collection.JavaConverters._
-//      var lemms = new Sentence("in 2010 as sherlock holmes on film").lemmas().asScala.mkString(" ")
-//      lemms = new Sentence("in 2009 joker on film").lemmas().asScala.mkString(" ")
-//      eval.TestQuery("2009 AND joker AND on AND film AND \"golden globe award for best\" AND actor^2" , "in 2009 joker on film")
-
-
+      // eval.TestQuery("List of museums in Florida" , "List of museums in Florida")
       println("search done")
     } catch {
       case ex: Exception => println(ex.getMessage)
