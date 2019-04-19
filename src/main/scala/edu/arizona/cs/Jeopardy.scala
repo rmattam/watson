@@ -40,7 +40,11 @@ object Jeopardy {
 
             j.raw_question = line.replace(":", " ")
 
-          }else {
+          } else if (j.category == "GOLDEN GLOBE WINNERS") {
+            j.raw_question = line.toLowerCase().stripPrefix("in ").replace(":", " ")
+            j.question = j.raw_question.split("[ ]+").mkString(" AND ")
+            j.question += " AND \"golden globe award for best\" AND actor^3.3"
+          } else {
             j.question = new Sentence(j.question).lemmas().asScala.mkString(" ").toLowerCase()
           }
         }
