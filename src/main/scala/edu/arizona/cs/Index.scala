@@ -94,7 +94,7 @@ class Index(val file:String, val bm25:Boolean, val lemma:Boolean) {
         objResultClass.Title = d.get("title")
         objResultClass.Content = d.get("text")
         objResultClass.Score = hits(i).score
-        println("Hit:"+ (i+1) +" Title: " + objResultClass.Title + " DocScore: " + objResultClass.Score)
+        //println("Hit:"+ (i+1) +" Title: " + objResultClass.Title + " DocScore: " + objResultClass.Score)
         doc_score_list += (objResultClass)
         i += 1
       }

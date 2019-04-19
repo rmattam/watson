@@ -25,7 +25,9 @@ class Evaluate {
     val tests = Jeopardy.Parse(fileName, false, conf.lemma())
     var correct = 0
     try {
+      var question_number = 0
       for (item: Jeopardy <- tests) {
+        question_number += 1
         // characters which have to be escaped: + - && || ! ( ) { } [ ] ^ " ~ * ? : \
         val question = item.question.replace('-', ' ').replace('!', ' ').replace(';',' ').replace(':', ' ')
 
@@ -40,16 +42,12 @@ class Evaluate {
         }
 
         if (item.answer.contains(prediction(0).Title)){
+          println(Console.GREEN + "Question: "+ question_number +" is CORRECT!! expected: "+ item.answer.mkString(" | ") + " retrieved: " + prediction(0).Title)
           correct += 1
-          report(true, item, prediction)
-        } else {
-          report(false, item, prediction)
-          prediction = wiki.Query(question)
-          report(false, item, prediction)
-        }
+        } else println(Console.RED + "Question: " + question_number + " is WRONG!! expected: "+ item.answer.mkString(" | ")  + " retrieved: " + prediction(0).Title)
       }
       val Accuracy = (correct.toFloat / tests.length)
-      println("Baseline Accuracy: " + Accuracy)
+      println(Console.GREEN + "Performance Measurement Precision@1: " + Accuracy)
     } finally {
       wiki.Close()
     }
