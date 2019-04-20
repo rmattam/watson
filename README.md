@@ -5,7 +5,7 @@ Attempts to emulate IBM Watson for Jeopardy using IR models.
 
 Follow the steps below to run the evaluation:
 
-Step 1: Download source code from Github: \url{https://github.com/rmattam/watson}
+Step 1: Clone this repository.
 
 Step 2: Download the compressed Lucene index lemma.tar.gz tar ball file from the Google Drive link: https://drive.google.com/file/d/1HnrAvDh8a9x3EDQBZBEtRelyeGreamMn/view?usp=sharing
 
