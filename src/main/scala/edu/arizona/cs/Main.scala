@@ -5,9 +5,9 @@ import org.rogach.scallop._
 class Config(arguments: Seq[String]) extends ScallopConf(arguments) {
   val data = opt[String]()
   val index = opt[String](required = true)
-  val query = opt[String](required = true)
+  val query = opt[String](default = Some("questions.txt"))
   val tfidf = opt[Boolean]()
-  val lemma = opt[Boolean]()
+  val stemmer = opt[Boolean]()
   verify()
 }
 

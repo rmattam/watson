@@ -12,7 +12,7 @@ class Evaluate {
 
   def init_index(config:Config): Unit ={
     conf = config
-    wiki = new Wiki(conf.index(), conf.tfidf(), conf.lemma())
+    wiki = new Wiki(conf.index(), conf.tfidf(), !conf.stemmer())
     if (conf.data.isSupplied) {
       println("reading wiki data from: " + conf.data())
       wiki.Index(conf.data())
@@ -22,7 +22,7 @@ class Evaluate {
   }
 
   def Baseline(fileName:String): Unit ={
-    val tests = Jeopardy.Parse(fileName, false, conf.lemma())
+    val tests = Jeopardy.Parse(fileName, false, !conf.stemmer())
     var correct = 0
     try {
       var question_number = 0
@@ -38,7 +38,7 @@ class Evaluate {
           for (pred <- prediction){
             if (pred.Title.toLowerCase().contains("tin")) filter += pred
           }
-          prediction = filter.toList
+          prediction = if (filter.length > 0) filter.toList else prediction
         }
 
         if (item.answer.contains(prediction(0).Title)){

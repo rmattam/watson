@@ -62,16 +62,17 @@ object Jeopardy {
             j.question = spans.mkString(" AND ") + " AND \"jack ryan\""
           } else {
             j.question = new Sentence(j.question).lemmas().asScala.mkString(" ").toLowerCase()
+            if (doNLP) {
+              j.nlp = new Sentence(j.question)
+              for(s <- 0 to j.nlp.length - 1){
+                val consti = j.nlp.parse()
+                val depi = j.nlp.dependencyGraph()
+                if (j.nlp.posTag(s).contains("NN") || j.nlp.posTag(s).contains("JJ") || j.nlp.posTag(s).contains("VB")|| j.nlp.posTag(s).contains("CD"))
+                  j.nouns+= j.nlp.word(s)
+              }
+              j.question += " " + j.nouns.mkString("^0.1 ")
+            }
           }
-        }
-
-        if (doNLP) {
-          j.nlp = new Sentence(j.question)
-          for(s <- 0 to j.nlp.length - 1){
-            if (j.nlp.posTag(s).contains("NN"))
-              j.nouns+= j.nlp.word(s)
-          }
-          j.question += " " + j.nouns.mkString(" AND ")
         }
       }
       if (i == 2) j.answer = line.split("\\|")
