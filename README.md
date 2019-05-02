@@ -11,7 +11,16 @@ Step 2: Download the compressed Lucene index lemma.tar.gz tar ball file from the
 
 or download from Dropbox : https://www.dropbox.com/s/x70pg7zcdmdfsph/lemma.tar.gz?dl=0
 
+```
+wget -O lemma.tar.gz https://www.dropbox.com/s/x70pg7zcdmdfsph/lemma.tar.gz?dl=0
+
+```
+
 Step 3: Extract the downloaded lucene index to a folder within the working directory of the watson source repository.
+
+```
+tar -xzvf lemma.tar.gz
+```
 
 Step 4: Run the following command in the terminal from the root of the source repository. Do not move the questions.txt file from resources. It should be present in the resources folder for the code to run.
 ```
